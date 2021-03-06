@@ -25,6 +25,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Run"",
+                    ""type"": ""Button"",
+                    ""id"": ""09fb9d55-b6c3-4053-8603-22a945966ee2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press(behavior=2)""
                 }
             ],
             ""bindings"": [
@@ -126,6 +134,17 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3622a197-7df4-48a7-b0f4-d8647be04845"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Run"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -641,6 +660,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         // HackAndSlash
         m_HackAndSlash = asset.FindActionMap("HackAndSlash", throwIfNotFound: true);
         m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
+        m_HackAndSlash_Run = m_HackAndSlash.FindAction("Run", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -703,11 +723,13 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private readonly InputActionMap m_HackAndSlash;
     private IHackAndSlashActions m_HackAndSlashActionsCallbackInterface;
     private readonly InputAction m_HackAndSlash_Move;
+    private readonly InputAction m_HackAndSlash_Run;
     public struct HackAndSlashActions
     {
         private @PlayerInputs m_Wrapper;
         public HackAndSlashActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
+        public InputAction @Run => m_Wrapper.m_HackAndSlash_Run;
         public InputActionMap Get() { return m_Wrapper.m_HackAndSlash; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -720,6 +742,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Move.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
                 @Move.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
                 @Move.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
+                @Run.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
+                @Run.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
+                @Run.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
             }
             m_Wrapper.m_HackAndSlashActionsCallbackInterface = instance;
             if (instance != null)
@@ -727,6 +752,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Move.started += instance.OnMove;
                 @Move.performed += instance.OnMove;
                 @Move.canceled += instance.OnMove;
+                @Run.started += instance.OnRun;
+                @Run.performed += instance.OnRun;
+                @Run.canceled += instance.OnRun;
             }
         }
     }
@@ -839,6 +867,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     public interface IHackAndSlashActions
     {
         void OnMove(InputAction.CallbackContext context);
+        void OnRun(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
