@@ -176,7 +176,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 14330d3e9f63a3e42a1206e4affd22ca, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -209,9 +209,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &5243287269287482204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 710c715381981684aaeaa3a85b060898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WalkSpeed: 5
-  RunSpeed: 10
+  WalkSpeed: 3
+  RunSpeed: 6
 --- !u!114 &2020060957643447323
 MonoBehaviour:
   m_ObjectHideFlags: 0
