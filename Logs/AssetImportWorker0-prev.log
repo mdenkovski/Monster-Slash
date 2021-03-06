@@ -1,0 +1,262 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+G:\Program Files\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50813
+Successfully changed project path to: E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash
+E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path G:/Program Files/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001322 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.9 MB.
+System memory in use after: 55.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1533.
+Total: 1.909500 ms (FindLiveObjects: 0.140700 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.651100 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models
+  artifactKey: Guid(0ebc264c1c95f5d4d89a02631542403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(0ebc264c1c95f5d4d89a02631542403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404903f8bd7df067b2be68f283f46c3a') in 0.009202 seconds
+  Import took 0.011047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.160365 seconds.
+  path: Assets/Models/Character
+  artifactKey: Guid(50fe38d172d439048aee6a5f682f1af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character using Guid(50fe38d172d439048aee6a5f682f1af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eafa04d7e81aea805ebb5be07e0723d') in 0.006546 seconds
+  Import took 0.008390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.036961 seconds.
+  path: Assets/Models/Character/maria_prop_j_j_ong.fbx
+  artifactKey: Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/maria_prop_j_j_ong.fbx using Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341e26206c8dd971db09a001e5491e27') in 0.717670 seconds
+  Import took 0.719825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.225400 seconds.
+  path: Assets/Models/Character/maria_prop_j_j_ong.fbx
+  artifactKey: Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/maria_prop_j_j_ong.fbx using Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7886ff0c049305a156963da2a21ff5') in 0.039877 seconds
+  Import took 0.042305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.777825 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.012091 seconds
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.414850 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(e7b8b0326f6637b40aceb0052965f542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(e7b8b0326f6637b40aceb0052965f542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16d443020ddcb22b4303a5b86e103e') in 0.007191 seconds
+  Import took 0.009247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.948059 seconds.
+  path: Assets/Textures/Character
+  artifactKey: Guid(6026d68583f829b45b8457fdab426fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Character using Guid(6026d68583f829b45b8457fdab426fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85768a6c15e00c2cb9ea36d098a4c34f') in 0.002589 seconds
+  Import took 0.004643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.600725 seconds.
+  path: Assets/Models/Character/maria_prop_j_j_ong.fbx
+  artifactKey: Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/maria_prop_j_j_ong.fbx using Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ff7a3e0416996ff6445b2393489539') in 0.059682 seconds
+  Import took 0.062253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.584105 seconds.
+  path: Assets/Textures/Character/maria_diffuse.png
+  artifactKey: Guid(b6e477cee88bb554c85f9bcb1e418cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Character/maria_diffuse.png using Guid(b6e477cee88bb554c85f9bcb1e418cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f971c723e318183016505431b7d1f1b') in 0.077243 seconds
+  Import took 0.079667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Textures/Character/maria_specular.png
+  artifactKey: Guid(eed75361c7c8a714f90af237c3d90548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Character/maria_specular.png using Guid(eed75361c7c8a714f90af237c3d90548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b9ffbef3cc9f8518288ddc411edf0c') in 0.016728 seconds
+  Import took 0.018479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Textures/Character/maria_normal.png
+  artifactKey: Guid(fcdeb65ae4fd5654a992e9aea03ca85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Character/maria_normal.png using Guid(fcdeb65ae4fd5654a992e9aea03ca85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff530bab28188bc6c5f006862551a5') in 0.023680 seconds
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003887 seconds.
+  path: Assets/Textures/Character/maria_normal.png
+  artifactKey: Guid(fcdeb65ae4fd5654a992e9aea03ca85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Character/maria_normal.png using Guid(fcdeb65ae4fd5654a992e9aea03ca85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff530bab28188bc6c5f006862551a5') in 0.014679 seconds
+  Import took 0.016895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.313194 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(e967b0b2b32dbe94d8b6402a487552fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(e967b0b2b32dbe94d8b6402a487552fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c9b3c823c89e8ae65d636c95e598be') in 0.006914 seconds
+  Import took 0.008755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.848519 seconds.
+  path: Assets/Materials/Character
+  artifactKey: Guid(4675b84a3bf840141b8d4009cdd44fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Character using Guid(4675b84a3bf840141b8d4009cdd44fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d671e3f4e22af797814b5820316022') in 0.002305 seconds
+  Import took 0.004192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.568987 seconds.
+  path: Assets/Models/Character/maria_prop_j_j_ong.fbx
+  artifactKey: Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/maria_prop_j_j_ong.fbx using Guid(9ead02eb5da98c448972898c34b7e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71d41035a603c32f9985346db7b84e7') in 0.045371 seconds
+  Import took 0.048279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.796732 seconds.
+  path: Assets/Materials/Character/MariaMat.mat
+  artifactKey: Guid(a93294851a0cc164bac62215042bbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Character/MariaMat.mat using Guid(a93294851a0cc164bac62215042bbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff4df28b9e0390feed8771af59a4d3') in 0.025035 seconds
+  Import took 0.027057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.339658 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(093c5fde17e26cf4ca51ff6fcf3d2cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(093c5fde17e26cf4ca51ff6fcf3d2cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62eecc1921fb3faa6c8630b3eef1e5f') in 0.006714 seconds
+  Import took 0.008620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.666828 seconds.
+  path: Assets/Prefabs/Character
+  artifactKey: Guid(7b83eff760046fb4688ff5c00513837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character using Guid(7b83eff760046fb4688ff5c00513837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a0651f15bf82a404a4a773496627d7') in 0.002387 seconds
+  Import took 0.004487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.337038 seconds.
+  path: Assets/Prefabs/Character/Player.prefab
+  artifactKey: Guid(9ae53199f240d004c82f4d9a2cdda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character/Player.prefab using Guid(9ae53199f240d004c82f4d9a2cdda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011d2f77e9c9a315f85063fecb52a552') in 0.033493 seconds
+  Import took 0.036067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001793 seconds.
+  path: Assets/Prefabs/Character/Player.prefab
+  artifactKey: Guid(9ae53199f240d004c82f4d9a2cdda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character/Player.prefab using Guid(9ae53199f240d004c82f4d9a2cdda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011d2f77e9c9a315f85063fecb52a552') in 0.018176 seconds
+  Import took 0.020615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 1.430600 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.141500 ms  DeleteObjects: 0.093800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
