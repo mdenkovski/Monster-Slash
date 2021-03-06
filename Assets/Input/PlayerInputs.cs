@@ -33,6 +33,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press(behavior=2)""
+                },
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""Button"",
+                    ""id"": ""23272d03-9374-4966-be36-6b7834348071"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -143,6 +151,17 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Run"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""631aa41a-91a6-4570-9469-321964af7fd3"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -661,6 +680,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_HackAndSlash = asset.FindActionMap("HackAndSlash", throwIfNotFound: true);
         m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
         m_HackAndSlash_Run = m_HackAndSlash.FindAction("Run", throwIfNotFound: true);
+        m_HackAndSlash_Attack = m_HackAndSlash.FindAction("Attack", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -724,12 +744,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private IHackAndSlashActions m_HackAndSlashActionsCallbackInterface;
     private readonly InputAction m_HackAndSlash_Move;
     private readonly InputAction m_HackAndSlash_Run;
+    private readonly InputAction m_HackAndSlash_Attack;
     public struct HackAndSlashActions
     {
         private @PlayerInputs m_Wrapper;
         public HackAndSlashActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
         public InputAction @Run => m_Wrapper.m_HackAndSlash_Run;
+        public InputAction @Attack => m_Wrapper.m_HackAndSlash_Attack;
         public InputActionMap Get() { return m_Wrapper.m_HackAndSlash; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -745,6 +767,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Run.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
                 @Run.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
                 @Run.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
+                @Attack.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
+                @Attack.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
+                @Attack.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
             }
             m_Wrapper.m_HackAndSlashActionsCallbackInterface = instance;
             if (instance != null)
@@ -755,6 +780,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Run.started += instance.OnRun;
                 @Run.performed += instance.OnRun;
                 @Run.canceled += instance.OnRun;
+                @Attack.started += instance.OnAttack;
+                @Attack.performed += instance.OnAttack;
+                @Attack.canceled += instance.OnAttack;
             }
         }
     }
@@ -868,6 +896,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
+        void OnAttack(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
