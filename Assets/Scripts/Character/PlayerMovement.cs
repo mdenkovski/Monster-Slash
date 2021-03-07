@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.AI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerController PlayerController;
     private Animator PlayerAnimator;
-    private Rigidbody PlayerRigidbody;
+    private NavMeshAgent PlayerNavMeshAgent;
 
     private Transform PlayerTransform;
 
+    [SerializeField] private float MoveDirectionBuffer = 1.0f;
+    private Vector3 NextPositionCheck;
     private Vector2 InputVector = Vector2.zero;
     private Vector3 MoveDirection = Vector3.zero;
 
@@ -24,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerTransform = transform;
         PlayerController = GetComponent<PlayerController>();
         PlayerAnimator = GetComponent<Animator>();
-        PlayerRigidbody = GetComponent<Rigidbody>();
+        PlayerNavMeshAgent = GetComponent<NavMeshAgent>();
     }
 
     public void OnMove(InputValue value)
@@ -53,7 +56,13 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 movementDirection = MoveDirection * (currentSpeed * Time.deltaTime);
 
-        PlayerTransform.position += movementDirection;
+        NextPositionCheck = transform.position + MoveDirection * MoveDirectionBuffer;
+
+        if (NavMesh.SamplePosition(NextPositionCheck, out NavMeshHit hit, 1.0f, NavMesh.AllAreas))
+        {
+            transform.position += movementDirection;
+        }
+
     }
 
     public void OnAttack(InputValue value)
