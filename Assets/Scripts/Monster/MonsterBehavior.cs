@@ -15,12 +15,15 @@ public class MonsterBehavior : MonoBehaviour
 
     [SerializeField]
     private Transform PlayerTarget;
+    [SerializeField]
+    private BoxCollider Collider;
 
     private void Awake()
     {
         Animator = GetComponent<Animator>();
         MonsterStats = GetComponent<GameplayStats>();
         NavAgent = GetComponent<NavMeshAgent>();
+        Collider = GetComponent<BoxCollider>();
 
         MonsterStats.DeathEvent.AddListener(OnDeath);
     }
@@ -35,11 +38,13 @@ public class MonsterBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        NavAgent.SetDestination(PlayerTarget.position);
         //Animator.SetFloat("Speed", NavAgent.velocity.magnitude);
     }
 
     private void OnDeath()
     {
+        Collider.enabled = false;
         Debug.Log(name + " has died");
     }
 

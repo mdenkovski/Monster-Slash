@@ -606,7 +606,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.16018225, y: -0.000000023309845, z: 0.000000003782667, w: 0.9870875}
+  m_LocalRotation: {x: 0.16018224, y: -0.000000004252742, z: 6.9012535e-10, w: 0.9870875}
   m_LocalPosition: {x: 1, y: 3, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -800,7 +800,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471825698}
-  m_LocalRotation: {x: 0.16018225, y: -0.000000023309845, z: 0.000000003782667, w: 0.9870875}
+  m_LocalRotation: {x: 0.16018224, y: -0.000000004252742, z: 6.9012535e-10, w: 0.9870875}
   m_LocalPosition: {x: 1, y: 3, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1027,6 +1027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurtleShellMonster
       objectReference: {fileID: 0}
+    - target: {fileID: 7473328256618872176, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
 --- !u!4 &1302453720021169659 stripped
@@ -1092,6 +1096,10 @@ PrefabInstance:
     - target: {fileID: 1016560609581754861, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1530625632968177955, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: Attack
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
