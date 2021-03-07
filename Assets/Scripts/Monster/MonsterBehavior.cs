@@ -18,6 +18,13 @@ public class MonsterBehavior : MonoBehaviour
     [SerializeField]
     private BoxCollider Collider;
 
+    [SerializeField]
+    private float AttackRange = 2.0f;
+    private bool IsAttacking = false;
+    [SerializeField]
+    private float AttackSpeed = 2.0f;
+    private IEnumerator AttackCoroutine;
+
     private void Awake()
     {
         Animator = GetComponent<Animator>();
@@ -38,8 +45,43 @@ public class MonsterBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (IsAttacking) return;
+
         NavAgent.SetDestination(PlayerTarget.position);
+        
+        CheckInRange();
+
         Animator.SetFloat("Speed", NavAgent.velocity.magnitude);
+
+    }
+
+    private void CheckInRange()
+    {
+        if (Vector3.Distance(transform.position, PlayerTarget.position) <= AttackRange)
+        {
+            if (!IsAttacking)
+            {
+                if (AttackCoroutine == null) // only attack when attack delay occurs
+                {
+                    AttackCoroutine = Attack();
+                    StartCoroutine(AttackCoroutine);
+                }
+            }
+        }
+    }
+
+    IEnumerator Attack()
+    {
+        transform.LookAt(PlayerTarget.position);
+        //NavAgent.speed = 0;
+        Animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(AttackSpeed);
+        AttackCoroutine = null;
+    }
+
+    public void StopAttacking()
+    {
+        IsAttacking = false;
     }
 
     private void OnDeath()
