@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float WalkSpeed;
     [SerializeField] private float RunSpeed;
+    [SerializeField] private float RotationSpeed = 30.0f;
 
 
     private PlayerController PlayerController;
@@ -31,6 +32,9 @@ public class PlayerMovement : MonoBehaviour
 
 
         WeaponBehaviour.EnemyHitEvent.AddListener(OnEnemyHit);
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void OnMove(InputValue value)
@@ -48,6 +52,11 @@ public class PlayerMovement : MonoBehaviour
         PlayerAnimator.SetBool("IsRunning", value.isPressed);
     }
 
+    public void OnLook(InputValue value)
+    {
+        //Debug.Log(value.Get());
+        transform.Rotate(Vector3.up, RotationSpeed * value.Get<float>() * Time.deltaTime);
+    }
 
     // Update is called once per frame
     void Update()

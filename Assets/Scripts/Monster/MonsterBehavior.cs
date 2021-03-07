@@ -45,6 +45,9 @@ public class MonsterBehavior : MonoBehaviour
     private void OnDeath()
     {
         Collider.enabled = false;
+        NavAgent.isStopped = true;
+        //NavAgent.enabled = false;
+        Animator.SetBool("IsDead", true);
         Debug.Log(name + " has died");
     }
 
