@@ -51,4 +51,10 @@ public class MonsterBehavior : MonoBehaviour
         Debug.Log(name + " has died");
     }
 
+    public void DeathCleanup()
+    {
+        Debug.Log("Cleaning Up");
+        Destroy(this.gameObject);
+    }
+
 }
