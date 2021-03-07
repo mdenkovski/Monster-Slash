@@ -39,7 +39,7 @@ public class MonsterBehavior : MonoBehaviour
     void Update()
     {
         NavAgent.SetDestination(PlayerTarget.position);
-        //Animator.SetFloat("Speed", NavAgent.velocity.magnitude);
+        Animator.SetFloat("Speed", NavAgent.velocity.magnitude);
     }
 
     private void OnDeath()
