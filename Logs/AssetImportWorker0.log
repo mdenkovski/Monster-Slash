@@ -15,11 +15,11 @@ E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51162
+49884
 Successfully changed project path to: E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path G:/Program Files/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,731 +35,691 @@ Initialize mono
 Mono path[0] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001322 seconds.
+Registered in 0.141166 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.059 seconds
+- Completed reload, in  4.058 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000792 seconds.
+Registered in 0.040696 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
+- Completed reload, in  2.398 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.1 MB.
-System memory in use after: 88.1 MB.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
 
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 2.951900 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.100400 ms MarkObjects: 2.300400 ms  DeleteObjects: 0.298800 ms)
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 2.816200 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.218800 ms  DeleteObjects: 0.238300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations
-  artifactKey: Guid(15eca66702854a64f916f1ceb02f9940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(15eca66702854a64f916f1ceb02f9940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177f31f658ef2473c5ae7e7fcf4d3e61') in 0.008412 seconds
-  Import took 0.011451 seconds .
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab
+  artifactKey: Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab using Guid(3aec22b5d3f3c2947bb81040b56e5f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14845727d04cea7c01ad11e03fe66811') in 0.140948 seconds
+  Import took 0.144705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.749431 seconds.
-  path: Assets/Animations/Character
-  artifactKey: Guid(2c20bc37f0ca6db4c90b1bb1cdba5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character using Guid(2c20bc37f0ca6db4c90b1bb1cdba5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ab8ad24ed560df1709521e3dc7fd83') in 0.007587 seconds
-  Import took 0.010532 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Promotion.jpg
+  artifactKey: Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Promotion.jpg using Guid(2a5a5f4f146cce3499cfcc7ee45b9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f56d2829697bd7162ecead97345912') in 0.069808 seconds
+  Import took 0.072713 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005156 seconds.
-  path: Assets/Animations/Character
-  artifactKey: Guid(2c20bc37f0ca6db4c90b1bb1cdba5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character using Guid(2c20bc37f0ca6db4c90b1bb1cdba5651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ab8ad24ed560df1709521e3dc7fd83') in 0.003389 seconds
-  Import took 0.007965 seconds .
+  Time since last request: 0.000368 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart
+  artifactKey: Guid(609084dd72595eb438ac509fdc5097f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart using Guid(609084dd72595eb438ac509fdc5097f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1928e855de40ecf072a546150a823fb2') in 0.006027 seconds
+  Import took 0.008760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.640439 seconds.
-  path: Assets/Animations/Character/Original
-  artifactKey: Guid(df9740583a7d8d64ca4713160deff57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original using Guid(df9740583a7d8d64ca4713160deff57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b572f860cc73e9cedf116877db96c0f5') in 0.007926 seconds
-  Import took 0.010850 seconds .
+  Time since last request: 0.000268 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab
+  artifactKey: Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab using Guid(38efdaadbfe1d624bbee439cb02e7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a592ca1a7040e5b06e3b579ab1f17ef6') in 0.326109 seconds
+  Import took 0.330043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.868547 seconds.
-  path: Assets/Animations/Character/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29469f0cfec41d2e6c1a8c56add1b64f') in 0.093354 seconds
-  Import took 0.097586 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs
+  artifactKey: Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs using Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb7f53ccd2edb4e9c58c85a392f922e') in 0.005984 seconds
+  Import took 0.009679 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.568367 seconds.
-  path: Assets/Animations/Character/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05563b635c92d2e1d27f5cfbd16efe6e') in 0.006063 seconds
-  Import took 0.009583 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab
+  artifactKey: Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab using Guid(55776efecb0cd134ea5f418c2f97a705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb462c69a54d6b6740f18500cf20a57') in 0.030585 seconds
+  Import took 0.035092 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025367 seconds.
-  path: Assets/Animations/Character/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05563b635c92d2e1d27f5cfbd16efe6e') in 0.006394 seconds
-  Import took 0.010544 seconds .
+  Time since last request: 0.000329 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab
+  artifactKey: Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab using Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de323a8055e0c61d20ee45ae4617059') in 0.028462 seconds
+  Import took 0.032199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.052431 seconds.
-  path: Assets/Animations/Character/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e36159af1c0f6087abf125cd222712') in 0.006632 seconds
-  Import took 0.010174 seconds .
+  Time since last request: 0.003750 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab
+  artifactKey: Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab using Guid(a817c29ea6847604bb2c6c51d9a74bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de323a8055e0c61d20ee45ae4617059') in 0.019457 seconds
+  Import took 0.024825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000935 seconds.
-  path: Assets/Animations/Character/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e36159af1c0f6087abf125cd222712') in 0.009830 seconds
-  Import took 0.014599 seconds .
+  Time since last request: 13.262663 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations
+  artifactKey: Guid(389170da8f2a7b54fab118388ba480a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations using Guid(389170da8f2a7b54fab118388ba480a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a994a8675a95cad4db6e360e1ea254e') in 0.006211 seconds
+  Import took 0.009325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.410093 seconds.
-  path: Assets/Animations/Character/Idle.anim
-  artifactKey: Guid(efdc11228bf03894c92d777f99809890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Idle.anim using Guid(efdc11228bf03894c92d777f99809890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89aff07a212b26505f5a6545d3ba273') in 0.028356 seconds
-  Import took 0.032905 seconds .
+  Time since last request: 1.144997 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime
+  artifactKey: Guid(10e0c415a9ecedd49a3d4d5e29395d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime using Guid(10e0c415a9ecedd49a3d4d5e29395d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1517f0ba4bb2529226d6cb0ddd7c3f99') in 0.002764 seconds
+  Import took 0.006139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.142894 seconds.
-  path: Assets/Animations/Character/WalkForward.fbx
-  artifactKey: Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.fbx using Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7f28e3a8f113b19fcc0c61e1cf6714') in 0.009816 seconds
-  Import took 0.014549 seconds .
+  Time since last request: 0.089983 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Attack01_Slime_Anim.fbx
+  artifactKey: Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Attack01_Slime_Anim.fbx using Guid(438236b1bb4dc03468cb3f2d12fa922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343ca3e59619e8a78671b437036145c8') in 0.064410 seconds
+  Import took 0.067821 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008833 seconds.
-  path: Assets/Animations/Character/WalkForward.fbx
-  artifactKey: Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.fbx using Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7f28e3a8f113b19fcc0c61e1cf6714') in 0.006843 seconds
-  Import took 0.010852 seconds .
+  Time since last request: 0.000341 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkLeft_Slime_Anim.fbx
+  artifactKey: Guid(89d2cadc7addca64c8849fb4c8d0928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkLeft_Slime_Anim.fbx using Guid(89d2cadc7addca64c8849fb4c8d0928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e839e7142563559204c26e20886b03') in 0.026593 seconds
+  Import took 0.029523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.235142 seconds.
-  path: Assets/Animations/Character/WalkForward.fbx
-  artifactKey: Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.fbx using Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe85a8288b1274acbd59dde4cd6c78c') in 0.005748 seconds
-  Import took 0.009295 seconds .
+  Time since last request: 0.000374 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Walk_Slime_Anim.fbx
+  artifactKey: Guid(f5d4d1a7dadc5a84d910c492d947ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Walk_Slime_Anim.fbx using Guid(f5d4d1a7dadc5a84d910c492d947ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dc2dc35a1f75a6886d720f282b886f') in 0.028179 seconds
+  Import took 0.031324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.369101 seconds.
-  path: Assets/Animations/Character/Original/Idle.fbx
-  artifactKey: Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original/Idle.fbx using Guid(012458c126264c1468ec755bbe1900c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d16f785c7778cc073f2f3ec6ef3b4e') in 0.006846 seconds
-  Import took 0.010826 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx
+  artifactKey: Guid(21b5bb1519e484148aa30042c43904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx using Guid(21b5bb1519e484148aa30042c43904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ae8fd77c318f5f0d707d65ab6d96f9') in 0.029529 seconds
+  Import took 0.032941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.351641 seconds.
-  path: Assets/Animations/Character/Original/Idle.anim
-  artifactKey: Guid(19d2758cb62ff9b45834b80ee537c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original/Idle.anim using Guid(19d2758cb62ff9b45834b80ee537c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6970de93430f848824d38ea9fc389648') in 0.024221 seconds
-  Import took 0.027714 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx
+  artifactKey: Guid(dbf4e442d523220489ca9531ab20161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx using Guid(dbf4e442d523220489ca9531ab20161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b1080052be1278c085e35259a8b24a') in 0.026628 seconds
+  Import took 0.029569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.870399 seconds.
-  path: Assets/Animations/Character/WalkForward.fbx
-  artifactKey: Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.fbx using Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52c975b11e4d4e504cdee3aa80d372') in 0.006145 seconds
-  Import took 0.009369 seconds .
+  Time since last request: 0.000193 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx
+  artifactKey: Guid(81c4fe76ddb8c314087afd9c59b831b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx using Guid(81c4fe76ddb8c314087afd9c59b831b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4f3cff3ac1b3335bb9ae0c1bc190e6') in 0.029264 seconds
+  Import took 0.032624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016308 seconds.
-  path: Assets/Animations/Character/WalkForward.fbx
-  artifactKey: Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.fbx using Guid(130abd7b50bf3aa4d92ec6cb3dc15caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa52c975b11e4d4e504cdee3aa80d372') in 0.007581 seconds
-  Import took 0.011964 seconds .
+  Time since last request: 0.000265 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx
+  artifactKey: Guid(7598b72533d77114287ffbe12e3f9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx using Guid(7598b72533d77114287ffbe12e3f9178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e7c3ae664fe13a61cbab415e3c2bed') in 0.025374 seconds
+  Import took 0.028343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.233446 seconds.
-  path: Assets/Animations/Character/WalkForward.anim
-  artifactKey: Guid(75445a7abefbe264a9df900dfece929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkForward.anim using Guid(75445a7abefbe264a9df900dfece929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a33db211792b8742e587657d98e08e') in 0.011652 seconds
-  Import took 0.014638 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/GetHit_Slime_Anim.fbx
+  artifactKey: Guid(a4dd2805a4cbc5b428b746ff8cf375c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/GetHit_Slime_Anim.fbx using Guid(a4dd2805a4cbc5b428b746ff8cf375c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c901c4509f0e72b4ee8937c3adeb9d') in 0.025914 seconds
+  Import took 0.029939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.212490 seconds.
-  path: Assets/Animations/Character/WalkBackwards.fbx
-  artifactKey: Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkBackwards.fbx using Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a653182f66ce3edf8e95350b99c8190') in 0.011187 seconds
-  Import took 0.015279 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkRight_Slime_Anim.fbx
+  artifactKey: Guid(e701e62680e5836438f67a3da2bdc71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkRight_Slime_Anim.fbx using Guid(e701e62680e5836438f67a3da2bdc71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c9f04a620d3e16003c2ebbbf8d2ad9') in 0.027731 seconds
+  Import took 0.031120 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.125120 seconds.
-  path: Assets/Animations/Character/WalkBackwards.fbx
-  artifactKey: Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkBackwards.fbx using Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1ac6091349b173beeb4ee429a2bda5') in 0.005995 seconds
-  Import took 0.009147 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/IdleBattle_Slime_Anim.fbx
+  artifactKey: Guid(2bfd6fdaf6b23874ca93fca2e578b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/IdleBattle_Slime_Anim.fbx using Guid(2bfd6fdaf6b23874ca93fca2e578b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b38e501b552388a8f07bfc208edaa98') in 0.027655 seconds
+  Import took 0.030767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003741 seconds.
-  path: Assets/Animations/Character/WalkBackwards.fbx
-  artifactKey: Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkBackwards.fbx using Guid(ca11cc86d3d5a2e46a6129887b4f63f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1ac6091349b173beeb4ee429a2bda5') in 0.006921 seconds
-  Import took 0.011493 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Attack02_Slime_Anim.fbx
+  artifactKey: Guid(8254c95c1caa1da4cb1d22972c413dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Attack02_Slime_Anim.fbx using Guid(8254c95c1caa1da4cb1d22972c413dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2800055a38f1c7cccec785cc95404bcd') in 0.027812 seconds
+  Import took 0.031905 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.212235 seconds.
-  path: Assets/Animations/Character/WalkBackwards.anim
-  artifactKey: Guid(3e37d9f6eb15faa428a6d688f2dcf366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/WalkBackwards.anim using Guid(3e37d9f6eb15faa428a6d688f2dcf366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5dcbfec5a9e6800fd5dc9ace4e0141') in 0.010257 seconds
-  Import took 0.013578 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx
+  artifactKey: Guid(34094b5c4dd5cd9438870be57749bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx using Guid(34094b5c4dd5cd9438870be57749bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365f14f2018999113db931400ade822c') in 0.038238 seconds
+  Import took 0.042411 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.434923 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92119347c6d489ece47f0b7453cced6') in 0.009577 seconds
-  Import took 0.013244 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Taunt_Slime_Anim.fbx
+  artifactKey: Guid(4633f9c0f50bbb548a176fd4c0f5a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Taunt_Slime_Anim.fbx using Guid(4633f9c0f50bbb548a176fd4c0f5a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112650173adac3f4751ffb94413a82db') in 0.035903 seconds
+  Import took 0.039150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009044 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92119347c6d489ece47f0b7453cced6') in 0.005868 seconds
-  Import took 0.010073 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Victory_Slime_Anim.fbx
+  artifactKey: Guid(6f262ec4363c1e54baf17c27c26b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Victory_Slime_Anim.fbx using Guid(6f262ec4363c1e54baf17c27c26b0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6059ce9e72cffc6df3ffa11d0af52f1') in 0.031540 seconds
+  Import took 0.035071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.334526 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce68caa55c87d05f4b97c3fe43c1a3cb') in 0.006792 seconds
-  Import took 0.011604 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx
+  artifactKey: Guid(08a0ee10a8d761e41bf8bc9b832040d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx using Guid(08a0ee10a8d761e41bf8bc9b832040d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b39832ba947584f7ccc563950856a8') in 0.027208 seconds
+  Import took 0.031105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.141841 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9606b85c7ba4410a06534d87b011d7f') in 0.005665 seconds
-  Import took 0.009112 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx
+  artifactKey: Guid(f76b9b823f2fc9a469d0c2c780514380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx using Guid(f76b9b823f2fc9a469d0c2c780514380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f366582a7ffd1e28e670e64dae2401') in 0.032109 seconds
+  Import took 0.035646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002193 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9606b85c7ba4410a06534d87b011d7f') in 0.006409 seconds
-  Import took 0.011673 seconds .
+  Time since last request: 5.286506 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes
+  artifactKey: Guid(206397375804bf34b866bcf1f881c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes using Guid(206397375804bf34b866bcf1f881c950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5196b2d73f83e202f4ef96e09a7c488') in 0.006794 seconds
+  Import took 0.010149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.120419 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ee9eecdfd527e4177a27bb9f9e068') in 0.006357 seconds
-  Import took 0.011004 seconds .
+  Time since last request: 0.119902 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx
+  artifactKey: Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx using Guid(1f499d0eded7a4245b0c36149a43da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bdf495d23bcf060e7226bd2e64af08') in 0.034913 seconds
+  Import took 0.039952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000866 seconds.
-  path: Assets/Animations/Character/StrafeLeft.fbx
-  artifactKey: Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.fbx using Guid(5daca3ff52c714345bedc1eeb9fea111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ee9eecdfd527e4177a27bb9f9e068') in 0.006482 seconds
-  Import took 0.010469 seconds .
+  Time since last request: 0.000462 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx using Guid(550cdd9b4c76ad645b99cd9eea1bb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9f0337484ee2d16e5553204fef3336') in 0.033386 seconds
+  Import took 0.037469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.221522 seconds.
-  path: Assets/Animations/Character/StrafeLeft.anim
-  artifactKey: Guid(49ff69465bba1ca4dafbfa13c5e06875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeLeft.anim using Guid(49ff69465bba1ca4dafbfa13c5e06875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e990eb3e62c470a18830f831324ad2f0') in 0.011515 seconds
-  Import took 0.014580 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx
+  artifactKey: Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx using Guid(032e9c3d6b8f7bd4281b52741574f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641b4ffda1cb9ed8e9e6dbda1360b97c') in 0.028172 seconds
+  Import took 0.031646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.889708 seconds.
-  path: Assets/Animations/Character/StrafeRight.fbx
-  artifactKey: Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.fbx using Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c2c9f94124a2f13b23e20bac9c2a9e') in 0.011844 seconds
-  Import took 0.015141 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx
+  artifactKey: Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx using Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b8502d548efa46949a51f4142058d6') in 0.027317 seconds
+  Import took 0.030680 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.918151 seconds.
-  path: Assets/Animations/Character/StrafeRight.fbx
-  artifactKey: Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.fbx using Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00657c48d2c296f5079f9fae75b81b35') in 0.007072 seconds
-  Import took 0.011407 seconds .
+  Time since last request: 0.000258 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx
+  artifactKey: Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx using Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9030f6e4d509b6b81c3875d4628ec64') in 0.027177 seconds
+  Import took 0.030285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.408093 seconds.
-  path: Assets/Animations/Character/StrafeRight.fbx
-  artifactKey: Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.fbx using Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620467abc5c32a7f3d2409c1873d408c') in 0.006314 seconds
-  Import took 0.009952 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx
+  artifactKey: Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx using Guid(56dd4edec19a3b04195448769c085dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b8502d548efa46949a51f4142058d6') in 0.023200 seconds
+  Import took 0.026536 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000808 seconds.
-  path: Assets/Animations/Character/StrafeRight.fbx
-  artifactKey: Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.fbx using Guid(504b3c9eb724a564ca818e92ad8e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620467abc5c32a7f3d2409c1873d408c') in 0.006736 seconds
-  Import took 0.010915 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx
+  artifactKey: Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx using Guid(0d3c605385d6d9547a1e3f24e8248962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9030f6e4d509b6b81c3875d4628ec64') in 0.021796 seconds
+  Import took 0.024762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.428031 seconds.
-  path: Assets/Animations/Character/StrafeRight.anim
-  artifactKey: Guid(47b066f3749341043a74aeefa4146ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.anim using Guid(47b066f3749341043a74aeefa4146ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b7dd5a182c25430f75bb57ee8283cb') in 0.010220 seconds
-  Import took 0.013394 seconds .
+  Time since last request: 46.076540 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials
+  artifactKey: Guid(a9542135e3940dd449ec2cf59b7d110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials using Guid(a9542135e3940dd449ec2cf59b7d110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba341464297804e757f460967bcdbd') in 0.006964 seconds
+  Import took 0.010710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Animations/Character/StrafeRight.anim
-  artifactKey: Guid(47b066f3749341043a74aeefa4146ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/StrafeRight.anim using Guid(47b066f3749341043a74aeefa4146ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b7dd5a182c25430f75bb57ee8283cb') in 0.010711 seconds
-  Import took 0.014303 seconds .
+  Time since last request: 0.086086 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat using Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baae8d5a7e3ac8dcff3438434a5bec8') in 0.047096 seconds
+  Import took 0.050429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.157875 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25412a8f3b2653ffd42895eab8e9bf9') in 0.012156 seconds
-  Import took 0.015948 seconds .
+  Time since last request: 0.000397 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat
+  artifactKey: Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat using Guid(b3ad386aba28716448079dcf67d7aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef203b7235c824d58063e807dc021a52') in 0.016217 seconds
+  Import took 0.019028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005594 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25412a8f3b2653ffd42895eab8e9bf9') in 0.007313 seconds
-  Import took 0.010933 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat
+  artifactKey: Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Stage.mat using Guid(19f8a934c4d1c2b47b1d094b83f39fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935c88053340838db2696f23571f277c') in 0.232775 seconds
+  Import took 0.236025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.764990 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84a14f1d6a10663c13f314ddfc86d70') in 0.006220 seconds
-  Import took 0.009915 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat using Guid(97f1fc767078c904184a5800339690a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1463fc84ceb2d58b0fcf743c8e8a0') in 0.107571 seconds
+  Import took 0.110519 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012646 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84a14f1d6a10663c13f314ddfc86d70') in 0.006781 seconds
-  Import took 0.011339 seconds .
+  Time since last request: 0.000319 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat
+  artifactKey: Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat using Guid(d357a802e5ef4d44d829d89dfb1a341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be87d416b1e7bfd753a88093ab95cfa') in 0.017217 seconds
+  Import took 0.020366 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.012133 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b96f2ed2273d232d52ae868dc67a13') in 0.006726 seconds
-  Import took 0.011647 seconds .
+  Time since last request: 28.045063 seconds.
+  path: Assets/Prefabs/Monsters
+  artifactKey: Guid(89d1d9c5ec7076b468d37bf788c28c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters using Guid(89d1d9c5ec7076b468d37bf788c28c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29979b62f12e42a9a9aa35f195c4b8a3') in 0.007082 seconds
+  Import took 0.010960 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Animations/Character/RunForward.fbx
-  artifactKey: Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.fbx using Guid(8badbcae1f55e0a4b8d5f238d42d8887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b96f2ed2273d232d52ae868dc67a13') in 0.007594 seconds
-  Import took 0.011645 seconds .
+  Time since last request: 8.734619 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators
+  artifactKey: Guid(af8440f9a15060a4480c02c3ab72ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators using Guid(af8440f9a15060a4480c02c3ab72ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933e49b5d97ed32f86cc28e7a9ef6773') in 0.006884 seconds
+  Import took 0.010016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.105983 seconds.
-  path: Assets/Animations/Character/RunForward.anim
-  artifactKey: Guid(da0873d00ec85a749a9de93ec6291a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.anim using Guid(da0873d00ec85a749a9de93ec6291a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553a9f1c122f3add4117405315742fbd') in 0.010320 seconds
-  Import took 0.013636 seconds .
+  Time since last request: 1.468402 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller
+  artifactKey: Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller using Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d71596a12ab19f131464a054b57412') in 0.013880 seconds
+  Import took 0.017927 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001063 seconds.
-  path: Assets/Animations/Character/RunForward.anim
-  artifactKey: Guid(da0873d00ec85a749a9de93ec6291a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunForward.anim using Guid(da0873d00ec85a749a9de93ec6291a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553a9f1c122f3add4117405315742fbd') in 0.012163 seconds
-  Import took 0.016609 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller
+  artifactKey: Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/Slime.controller using Guid(fb53b4d3a4f06844c90da7297e9082de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d71596a12ab19f131464a054b57412') in 0.011338 seconds
+  Import took 0.015977 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.449254 seconds.
-  path: Assets/Animations/Character/RunBackwards.fbx
-  artifactKey: Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunBackwards.fbx using Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adac1722123a4d3fc19c0c8f923de32') in 0.010979 seconds
-  Import took 0.014332 seconds .
+  Time since last request: 2.575513 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller
+  artifactKey: Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller using Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587abf7e0b4b08a13ac1a8901816ae04') in 0.013753 seconds
+  Import took 0.017779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.190924 seconds.
-  path: Assets/Animations/Character/RunBackwards.fbx
-  artifactKey: Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunBackwards.fbx using Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901eda8a570ead19a31602d79cee54b2') in 0.006914 seconds
-  Import took 0.011368 seconds .
+  Time since last request: 0.000654 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller
+  artifactKey: Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Animators/TurtleShell.controller using Guid(1b58d63f942126347865fbdde70e67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587abf7e0b4b08a13ac1a8901816ae04') in 0.012949 seconds
+  Import took 0.016944 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.900625 seconds.
-  path: Assets/Animations/Character/RunBackwards.fbx
-  artifactKey: Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunBackwards.fbx using Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ee5ef0e743e0d4388443a24750d93e') in 0.005335 seconds
-  Import took 0.009737 seconds .
+  Time since last request: 5.673561 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Scenes
+  artifactKey: Guid(1c838ee21afece14487b460b85f39b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Scenes using Guid(1c838ee21afece14487b460b85f39b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768c778191c8e71a5579d88aa7f8fb04') in 0.016107 seconds
+  Import took 0.019335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001097 seconds.
-  path: Assets/Animations/Character/RunBackwards.fbx
-  artifactKey: Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunBackwards.fbx using Guid(4d7b191c95427ee49babc3ac09dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ee5ef0e743e0d4388443a24750d93e') in 0.006874 seconds
-  Import took 0.011740 seconds .
+  Time since last request: 2.069832 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Scenes/DuoScene.unity
+  artifactKey: Guid(f7b7e81352960c44f823fb500723f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Scenes/DuoScene.unity using Guid(f7b7e81352960c44f823fb500723f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b302b1637bddd565060afa970859ef98') in 0.007055 seconds
+  Import took 0.010212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.643314 seconds.
-  path: Assets/Animations/Character/RunBackwards.anim
-  artifactKey: Guid(5f259bea3d8a1a34e9a8820ff706db57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunBackwards.anim using Guid(5f259bea3d8a1a34e9a8820ff706db57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa52b8d62183815fa732ad0b35e7afa0') in 0.008499 seconds
-  Import took 0.011802 seconds .
+  Time since last request: 29.222919 seconds.
+  path: Assets/Scenes/MonsterSlash.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MonsterSlash.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e575f64b36a86d8de8a2f503d1ca46') in 0.006873 seconds
+  Import took 0.010112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.578344 seconds.
-  path: Assets/Animations/Character/RunLeft.fbx
-  artifactKey: Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunLeft.fbx using Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c648e603f0695bcbd6db3f79c2e9bdc0') in 0.013942 seconds
-  Import took 0.018016 seconds .
+  Time since last request: 42.209192 seconds.
+  path: Assets/Animations/Monsters
+  artifactKey: Guid(787dd0803fd46474bad7f8da56a03c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters using Guid(787dd0803fd46474bad7f8da56a03c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc0fbb5e9968f7d273b6544f5a1033c') in 0.002369 seconds
+  Import took 0.005862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001395 seconds.
-  path: Assets/Animations/Character/RunLeft.fbx
-  artifactKey: Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunLeft.fbx using Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c648e603f0695bcbd6db3f79c2e9bdc0') in 0.006940 seconds
-  Import took 0.011407 seconds .
+  Time since last request: 25.317028 seconds.
+  path: Assets/Animations/Monsters/Slime/Original
+  artifactKey: Guid(c4d37a5a14e480d40b8d6f75e608d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original using Guid(c4d37a5a14e480d40b8d6f75e608d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20207c753d84c8835b0d90c6f4422121') in 0.017862 seconds
+  Import took 0.020900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.440221 seconds.
-  path: Assets/Animations/Character/RunLeft.fbx
-  artifactKey: Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunLeft.fbx using Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55460b3244a559efd575fc58c6d29ea7') in 0.006697 seconds
-  Import took 0.010514 seconds .
+  Time since last request: 6.371312 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Attack01_TurtleShell_Anim.fbx
+  artifactKey: Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Attack01_TurtleShell_Anim.fbx using Guid(18d0edd1f2ba4444d9ba9bdf01f251d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fcaec9e09807f702533b733bf8262f') in 0.031478 seconds
+  Import took 0.034958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001908 seconds.
-  path: Assets/Animations/Character/RunLeft.fbx
-  artifactKey: Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunLeft.fbx using Guid(9b3c1ee304e3d1e46ac03f40eaf96423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55460b3244a559efd575fc58c6d29ea7') in 0.005926 seconds
-  Import took 0.009065 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/DefendHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(2c6157875a0088f46bb6a78179983ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/DefendHit_TurtleShell_Anim.fbx using Guid(2c6157875a0088f46bb6a78179983ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14054342aee8f4364498faabff68f4f8') in 0.030484 seconds
+  Import took 0.035047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.688717 seconds.
-  path: Assets/Animations/Character/RunLeft.anim
-  artifactKey: Guid(082db333422e2794dbb1bd7359f02592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunLeft.anim using Guid(082db333422e2794dbb1bd7359f02592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f45a4c34d05f2868e1f17a39dd282c2') in 0.007806 seconds
-  Import took 0.011922 seconds .
+  Time since last request: 0.000231 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/GetHit_TurtleShell_Anim.fbx
+  artifactKey: Guid(b374e22ebb027494eaf0e15709666b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/GetHit_TurtleShell_Anim.fbx using Guid(b374e22ebb027494eaf0e15709666b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7593b8ebc7b9ca7bff18ab67e18992b7') in 0.036478 seconds
+  Import took 0.041298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.935450 seconds.
-  path: Assets/Animations/Character/RunRight.fbx
-  artifactKey: Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.fbx using Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf34891e9ecef055bedf4791de6adad3') in 0.012396 seconds
-  Import took 0.017024 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/IdleNormal_TurtleShell_Anim.fbx
+  artifactKey: Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/IdleNormal_TurtleShell_Anim.fbx using Guid(1b1e02561fcbcf64c82b7c02dfb9f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee37c06a10de8fe15e6a92988476a099') in 0.031608 seconds
+  Import took 0.035485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007776 seconds.
-  path: Assets/Animations/Character/RunRight.fbx
-  artifactKey: Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.fbx using Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf34891e9ecef055bedf4791de6adad3') in 0.005673 seconds
-  Import took 0.010204 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Dizzy_TurtleShell_Anim.fbx
+  artifactKey: Guid(b8e1da2ff6963da4b8483eeae18b60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Dizzy_TurtleShell_Anim.fbx using Guid(b8e1da2ff6963da4b8483eeae18b60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d50e949c7dcf053f331b47362e6c7d') in 0.027428 seconds
+  Import took 0.031584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.638100 seconds.
-  path: Assets/Animations/Character/RunRight.fbx
-  artifactKey: Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.fbx using Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca166de692c0e96ad7dbc401c8a1629') in 0.005565 seconds
-  Import took 0.008906 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/WalkBack_TurtleShell_Anim.fbx
+  artifactKey: Guid(4067e520934750d4c9e5f7fab9cf487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/WalkBack_TurtleShell_Anim.fbx using Guid(4067e520934750d4c9e5f7fab9cf487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61095e11050aafa55d9cace48bfe1beb') in 0.024889 seconds
+  Import took 0.028390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.262494 seconds.
-  path: Assets/Animations/Character/RunRight.fbx
-  artifactKey: Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.fbx using Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73272d7348fd0a27cbfb9a676a0502c') in 0.006281 seconds
-  Import took 0.010815 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/IdleBattle_TurtleShell_Anim.fbx
+  artifactKey: Guid(e599599913457404aa360071350dd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/IdleBattle_TurtleShell_Anim.fbx using Guid(e599599913457404aa360071350dd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0959eeb2aa069cb110405092653db679') in 0.025924 seconds
+  Import took 0.029316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001422 seconds.
-  path: Assets/Animations/Character/RunRight.fbx
-  artifactKey: Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.fbx using Guid(98a55027eaa1f2047b20972bbffccbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73272d7348fd0a27cbfb9a676a0502c') in 0.006066 seconds
-  Import took 0.009394 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx
+  artifactKey: Guid(ddc2a58dd3a46bc4aae83f0b6792d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx using Guid(ddc2a58dd3a46bc4aae83f0b6792d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d257a624be45b4359da0efb4e95393') in 0.025501 seconds
+  Import took 0.028649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.095340 seconds.
-  path: Assets/Animations/Character/RunRight.anim
-  artifactKey: Guid(570c075bc802c1840a3676e8497f70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/RunRight.anim using Guid(570c075bc802c1840a3676e8497f70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b65ccb1859e297d753207a96573d9a3') in 0.009556 seconds
-  Import took 0.013331 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Attack02_TurtleShell_Anim.fbx
+  artifactKey: Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Attack02_TurtleShell_Anim.fbx using Guid(24d275f677a39b245a5e175f24e345a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3c095765e1e1c2c86c84aea6610572') in 0.025954 seconds
+  Import took 0.029573 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.408845 seconds.
-  path: Assets/Animations/Character/Movement
-  artifactKey: Guid(7a03e9d47597ae04c9125db602ab0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Movement using Guid(7a03e9d47597ae04c9125db602ab0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ee66323fab4e500df41afe33d9582') in 0.008786 seconds
-  Import took 0.011716 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx
+  artifactKey: Guid(a6c28cf5fd46b9045a05f90be02cf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx using Guid(a6c28cf5fd46b9045a05f90be02cf2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf370f018403433f926bf3d96100e7e2') in 0.027698 seconds
+  Import took 0.030689 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005557 seconds.
-  path: Assets/Animations/Character/Movement
-  artifactKey: Guid(7a03e9d47597ae04c9125db602ab0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Movement using Guid(7a03e9d47597ae04c9125db602ab0ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ee66323fab4e500df41afe33d9582') in 0.003567 seconds
-  Import took 0.007683 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Taunt_TurtleShell_Anim.fbx
+  artifactKey: Guid(4bb50d0b13219844eb0abbbf1c15724d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Taunt_TurtleShell_Anim.fbx using Guid(4bb50d0b13219844eb0abbbf1c15724d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cd7828ed93b24222584200101d2025') in 0.027270 seconds
+  Import took 0.030435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.901588 seconds.
-  path: Assets/Animations/Character/Original/Movement
-  artifactKey: Guid(8975f6d19c83dbd49974c30750d12d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original/Movement using Guid(8975f6d19c83dbd49974c30750d12d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f1ab76ed5b7aeb6bd8b3ae20fcba6d') in 0.002787 seconds
-  Import took 0.005867 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Die_TurtleShell_Anim.fbx
+  artifactKey: Guid(d57bb9f35b232f546851ae283a6a4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Die_TurtleShell_Anim.fbx using Guid(d57bb9f35b232f546851ae283a6a4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d62729458347186bc017c9fe06bf8bf') in 0.029018 seconds
+  Import took 0.031950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.853714 seconds.
-  path: Assets/Animations/Character/Combat
-  artifactKey: Guid(a1a8f6e8d6b9e9b4f817586287fb1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Combat using Guid(a1a8f6e8d6b9e9b4f817586287fb1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63ad2390ff93d298fbf54fc759d2ab3') in 0.008259 seconds
-  Import took 0.011346 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Walk_TurtleShell_Anim.fbx
+  artifactKey: Guid(769c6c4d31c2dad48b0664b47847f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Walk_TurtleShell_Anim.fbx using Guid(769c6c4d31c2dad48b0664b47847f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469157c1e7cc0a9e2700e30db970cb7') in 0.026724 seconds
+  Import took 0.029627 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005491 seconds.
-  path: Assets/Animations/Character/Combat
-  artifactKey: Guid(a1a8f6e8d6b9e9b4f817586287fb1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Combat using Guid(a1a8f6e8d6b9e9b4f817586287fb1316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63ad2390ff93d298fbf54fc759d2ab3') in 0.002744 seconds
-  Import took 0.006185 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Defend_TurtleShell_Anim.fbx
+  artifactKey: Guid(eece6c7b0fef3a74cacd7b1169d86d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Defend_TurtleShell_Anim.fbx using Guid(eece6c7b0fef3a74cacd7b1169d86d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfb17d3c707bb4afa95037e5fead5fd') in 0.029069 seconds
+  Import took 0.032225 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.277397 seconds.
-  path: Assets/Animations/Character/Original/Combat
-  artifactKey: Guid(5fdd7b3257d69c74ea18bd5f4632c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original/Combat using Guid(5fdd7b3257d69c74ea18bd5f4632c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05000de37d27e79dbc6fa3191df571b') in 0.003833 seconds
-  Import took 0.008351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000701 seconds.
-  path: Assets/Animations/Character/Original/Combat
-  artifactKey: Guid(5fdd7b3257d69c74ea18bd5f4632c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Original/Combat using Guid(5fdd7b3257d69c74ea18bd5f4632c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05000de37d27e79dbc6fa3191df571b') in 0.002587 seconds
-  Import took 0.005902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.692188 seconds.
-  path: Assets/Animations/Character/Slash.fbx
-  artifactKey: Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.fbx using Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a7851b6d0db299a25e0bc7727dc088') in 0.010659 seconds
-  Import took 0.015890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005172 seconds.
-  path: Assets/Animations/Character/Slash.fbx
-  artifactKey: Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.fbx using Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a7851b6d0db299a25e0bc7727dc088') in 0.006384 seconds
-  Import took 0.010802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.296327 seconds.
-  path: Assets/Animations/Character/Slash.fbx
-  artifactKey: Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.fbx using Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef061d8737a61db3a84a53860915c11') in 0.007161 seconds
-  Import took 0.011789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.254238 seconds.
-  path: Assets/Animations/Character/Slash.fbx
-  artifactKey: Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.fbx using Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bc1e30a0e5e9eb068ede2c9246069d') in 0.006498 seconds
-  Import took 0.010758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Animations/Character/Slash.fbx
-  artifactKey: Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.fbx using Guid(a87a97518ca0c0546a4deac25e05a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bc1e30a0e5e9eb068ede2c9246069d') in 0.007977 seconds
-  Import took 0.012079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.766712 seconds.
-  path: Assets/Animations/Character/Slash.anim
-  artifactKey: Guid(9945f73dfef1b0e499e5cf10c61e907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Character/Slash.anim using Guid(9945f73dfef1b0e499e5cf10c61e907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22240c4b65833ca74d69e23a1250e68d') in 0.014127 seconds
-  Import took 0.018682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.804476 seconds.
-  path: Assets/Input
-  artifactKey: Guid(381f25a77fc3ee1419246141cbbdc636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input using Guid(381f25a77fc3ee1419246141cbbdc636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d07de75d66841c32a66d806dd4bfe2d') in 0.006751 seconds
-  Import took 0.010166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Input
-  artifactKey: Guid(381f25a77fc3ee1419246141cbbdc636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input using Guid(381f25a77fc3ee1419246141cbbdc636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d07de75d66841c32a66d806dd4bfe2d') in 0.002593 seconds
-  Import took 0.005787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.023480 seconds.
-  path: Assets/Input/PlayerInputs.inputactions
-  artifactKey: Guid(b0b24fc4ddaf8954d86087a9c80de247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input/PlayerInputs.inputactions using Guid(b0b24fc4ddaf8954d86087a9c80de247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9146eefde6ff073aaf4d10705da66708') in 0.013514 seconds
-  Import took 0.016844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.985610 seconds.
-  path: Assets/Input/PlayerInputs.inputactions
-  artifactKey: Guid(b0b24fc4ddaf8954d86087a9c80de247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Input/PlayerInputs.inputactions using Guid(b0b24fc4ddaf8954d86087a9c80de247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7083b180cd0d00036c8fbef786cc23') in 0.003156 seconds
-  Import took 0.007072 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 2.803300 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.235900 ms  DeleteObjects: 0.109600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.765910 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl.png
-  artifactKey: Guid(399cd90f4e31041e692a7d3a8b1aa4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl.png using Guid(399cd90f4e31041e692a7d3a8b1aa4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5419079fa625b7cdc470192e1b1da19') in 0.067521 seconds
-  Import took 0.071346 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Victory_TurtleShell_Anim.fbx
+  artifactKey: Guid(2ce4c828bc03a8f4689ebc72e6dd73bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Victory_TurtleShell_Anim.fbx using Guid(2ce4c828bc03a8f4689ebc72e6dd73bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b11d2e3a08147f67345b21f8ea93a4') in 0.029420 seconds
+  Import took 0.032778 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000289 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@4x.png
-  artifactKey: Guid(e2078613efd9e410c8771cbd2717f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@4x.png using Guid(e2078613efd9e410c8771cbd2717f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f8935891318beb2dd9dd0b7d076fbf') in 0.014104 seconds
-  Import took 0.017467 seconds .
+  path: Assets/Animations/Monsters/TurtleShell/Run_TurtleShell_Anim.fbx
+  artifactKey: Guid(7167b0d559da22d439a92af6ec59a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Run_TurtleShell_Anim.fbx using Guid(7167b0d559da22d439a92af6ec59a2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0e274a811ca8dc51a959e230e165c4') in 0.029409 seconds
+  Import took 0.032825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@2x.png
-  artifactKey: Guid(c4235c4abfa134435bd4c8c1f8fd8c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@2x.png using Guid(c4235c4abfa134435bd4c8c1f8fd8c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c279564318cad42068821aa30015f245') in 0.017637 seconds
-  Import took 0.021735 seconds .
+  Time since last request: 0.185636 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/WalkLeft_TurtleShell_Anim.fbx
+  artifactKey: Guid(8f9acbd44d63a84468cb5164f7f9a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/WalkLeft_TurtleShell_Anim.fbx using Guid(8f9acbd44d63a84468cb5164f7f9a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05ddc0dfbdbceba3b9506f6ae4115d9') in 0.038921 seconds
+  Import took 0.042690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.037298 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
-  artifactKey: Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions using Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e94058a61394a27a6f602118905173') in 0.020213 seconds
-  Import took 0.025679 seconds .
+  Time since last request: 0.000459 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/WalkRight_TurtleShell_Anim.fbx
+  artifactKey: Guid(66870af258a3ce344ae956c530df9b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/WalkRight_TurtleShell_Anim.fbx using Guid(66870af258a3ce344ae956c530df9b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b769343b6d432dde76dcd51f60090eae') in 0.027022 seconds
+  Import took 0.030392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.668775 seconds.
+  path: Assets/Animations/Monsters/TurtleShell
+  artifactKey: Guid(ca5cd40d31f77884e852a18df86b9a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell using Guid(ca5cd40d31f77884e852a18df86b9a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb9edd9583feaf2394c4a74844877a2') in 0.002502 seconds
+  Import took 0.005723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.464355 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original
+  artifactKey: Guid(8cce3b99dc1cde9419605dd6b0322c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original using Guid(8cce3b99dc1cde9419605dd6b0322c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166eba0182b3a8c90b700b9fb98cac5a') in 0.002525 seconds
+  Import took 0.005973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.158555 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original/Attack01.anim
+  artifactKey: Guid(25480a103af3271419bee489e88c2f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original/Attack01.anim using Guid(25480a103af3271419bee489e88c2f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893a63f54c14ca4e15fdeba58c63c795') in 0.012617 seconds
+  Import took 0.016178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.462528 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original/Die.anim
+  artifactKey: Guid(4005a10e215353945a0d41ddebf1ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original/Die.anim using Guid(4005a10e215353945a0d41ddebf1ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9053b46dbda294308f16ecd28dd0485e') in 0.009899 seconds
+  Import took 0.013314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.973977 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original/IdleNormal.anim
+  artifactKey: Guid(4e3d9646971ceac45880b1b13291e716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original/IdleNormal.anim using Guid(4e3d9646971ceac45880b1b13291e716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17293dedd31b700a7a4939a6b0ac3d6d') in 0.008761 seconds
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.096987 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original/WalkFWD.anim
+  artifactKey: Guid(84770ecaf42898744b39f2c8a79ec803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original/WalkFWD.anim using Guid(84770ecaf42898744b39f2c8a79ec803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78904980e9725e70ebd7b26ffb7e90cb') in 0.008769 seconds
+  Import took 0.011875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.500271 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller
+  artifactKey: Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller using Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366e968c0b1e2c564c7ac1da7d5fac3') in 0.007198 seconds
+  Import took 0.010520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.419852 seconds.
+  path: Assets/Prefabs/Monsters/TurtleShellMonster.prefab
+  artifactKey: Guid(616a594cee1425d4cae0e9c92bebf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/TurtleShellMonster.prefab using Guid(616a594cee1425d4cae0e9c92bebf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (TutleShellAnimController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (TutleShellAnimController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'c98c77a1de23a2ce467365a5ae681e6a') in 0.024029 seconds
+  Import took 0.028106 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000781 seconds.
+Registered in 0.000862 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -778,14 +738,1387 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
+- Completed reload, in  0.925 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.7 MB.
+System memory in use after: 101.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 2.798900 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.133300 ms MarkObjects: 2.110900 ms  DeleteObjects: 0.134200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.581692 seconds.
+  path: Assets/Scripts/Monster
+  artifactKey: Guid(fc37aea120e82e745ba176c56963004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster using Guid(fc37aea120e82e745ba176c56963004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c21fb9c4c18c061db70f40306edfa') in 0.009793 seconds
+  Import took 0.013042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.234470 seconds.
+  path: Assets/Scripts/GameplayStats.cs
+  artifactKey: Guid(5ec994584cb689747988e96ca9c5f5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameplayStats.cs using Guid(5ec994584cb689747988e96ca9c5f5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b46d7fe55fe875e938123539515fd5') in 0.089475 seconds
+  Import took 0.092896 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.6 MB.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 2.506100 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.074400 ms MarkObjects: 2.127300 ms  DeleteObjects: 0.110700 ms)
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.9 MB.
+System memory in use after: 101.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 3.094700 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.644200 ms  DeleteObjects: 0.115800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2658.251182 seconds.
+  path: Assets/Scripts/GameplayStats.cs
+  artifactKey: Guid(5ec994584cb689747988e96ca9c5f5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameplayStats.cs using Guid(5ec994584cb689747988e96ca9c5f5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f6f7219c6e862c62c186e8562949c4') in 0.005053 seconds
+  Import took 0.008352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.279211 seconds.
+  path: Assets/Scripts/Character/PlayerBehaviour.cs
+  artifactKey: Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerBehaviour.cs using Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64fcd4a0baec6d5fd0d04dd9def580d') in 0.007881 seconds
+  Import took 0.012888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 3.290700 ms (FindLiveObjects: 0.220700 ms CreateObjectMapping: 0.073600 ms MarkObjects: 2.921300 ms  DeleteObjects: 0.074000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2402.
+Total: 2.898500 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.523800 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 3.170100 ms (FindLiveObjects: 0.397700 ms CreateObjectMapping: 0.179700 ms MarkObjects: 2.504900 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 2.742600 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.273800 ms  DeleteObjects: 0.087500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.864600 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.387900 ms  DeleteObjects: 0.113000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1042.772229 seconds.
+  path: Assets/Scripts/Character/PlayerBehaviour.cs
+  artifactKey: Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerBehaviour.cs using Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b57e98359eadb1c3cbd4c3cfbbaa211') in 0.005500 seconds
+  Import took 0.008540 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1873 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2409.
+Total: 2.372900 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.988100 ms  DeleteObjects: 0.120200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.369257 seconds.
+  path: Assets/Scripts/Character/WeaponBehaviour.cs
+  artifactKey: Guid(01e4d499371292f46beab726a40bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/WeaponBehaviour.cs using Guid(01e4d499371292f46beab726a40bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f9fbb240031e3971e409db17776933') in 0.011064 seconds
+  Import took 0.014732 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.491200 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.075600 ms MarkObjects: 2.063800 ms  DeleteObjects: 0.138000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 2.628400 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.132100 ms  DeleteObjects: 0.120100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.005643 seconds.
+  path: Assets/Scripts/Character/WeaponBehaviour.cs
+  artifactKey: Guid(01e4d499371292f46beab726a40bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/WeaponBehaviour.cs using Guid(01e4d499371292f46beab726a40bbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65867deaab2c6f61cb16f9c2d91561fa') in 0.005456 seconds
+  Import took 0.008328 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 2.691900 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.271600 ms  DeleteObjects: 0.118800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 2.414400 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.077500 ms MarkObjects: 1.985900 ms  DeleteObjects: 0.126400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.956681 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8988b340c206bb1d98ca0d47b0266d3b') in 0.012819 seconds
+  Import took 0.016149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.650291 seconds.
+  path: Assets/Prefabs/Monsters/SlimeMonster.prefab
+  artifactKey: Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/SlimeMonster.prefab using Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c73c2d67ad927b7827b5e00f6afb12f') in 0.088110 seconds
+  Import took 0.093418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.451073 seconds.
+  path: Assets/Prefabs/Monsters/SlimeMonster.prefab
+  artifactKey: Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/SlimeMonster.prefab using Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07b3317efa2bff1e2d8614976c0bad') in 0.026874 seconds
+  Import took 0.031407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010977 seconds.
+  path: Assets/Prefabs/Monsters/SlimeMonster.prefab
+  artifactKey: Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/SlimeMonster.prefab using Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07b3317efa2bff1e2d8614976c0bad') in 0.023912 seconds
+  Import took 0.028181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524416 seconds.
+  path: Assets/Prefabs/Monsters/SlimeMonster.prefab
+  artifactKey: Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/SlimeMonster.prefab using Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5b0da9eba9ec65a73ae15bdf61d1d5') in 0.023269 seconds
+  Import took 0.027514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.568288 seconds.
+  path: Assets/Prefabs/Monsters/SlimeMonster.prefab
+  artifactKey: Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/SlimeMonster.prefab using Guid(1ecc2a8959e57b24bb770782eeb38ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983aa5a75fd314e2e296283ed52c2bb1') in 0.020359 seconds
+  Import took 0.024487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.488392 seconds.
+  path: Assets/Prefabs/Monsters/TurtleShellMonster.prefab
+  artifactKey: Guid(616a594cee1425d4cae0e9c92bebf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monsters/TurtleShellMonster.prefab using Guid(616a594cee1425d4cae0e9c92bebf48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fb9dfd62aef00640a04d76f57f8e3b') in 0.015371 seconds
+  Import took 0.019508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 2.610700 ms (FindLiveObjects: 0.343100 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.091500 ms  DeleteObjects: 0.085200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2423.
+Total: 2.359200 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.881300 ms  DeleteObjects: 0.124400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 2.530500 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.045400 ms  DeleteObjects: 0.126400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2427.
+Total: 2.927400 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.101300 ms MarkObjects: 2.469600 ms  DeleteObjects: 0.118300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2429.
+Total: 2.697700 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.073500 ms MarkObjects: 2.294000 ms  DeleteObjects: 0.120900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 3.295500 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.884800 ms  DeleteObjects: 0.100300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2433.
+Total: 2.870100 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.376100 ms  DeleteObjects: 0.122400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 3.583800 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.082400 ms MarkObjects: 3.177700 ms  DeleteObjects: 0.119700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2437.
+Total: 2.455700 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.084700 ms MarkObjects: 1.997700 ms  DeleteObjects: 0.117100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2439.
+Total: 2.622100 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.155800 ms  DeleteObjects: 0.111200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2441.
+Total: 2.488800 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.929200 ms  DeleteObjects: 0.169400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000860 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 2.719200 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.302600 ms  DeleteObjects: 0.088700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2445.
+Total: 2.643700 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.015100 ms  DeleteObjects: 0.126300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2447.
+Total: 4.026100 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.131200 ms MarkObjects: 3.384700 ms  DeleteObjects: 0.118800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 3.035400 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.197600 ms MarkObjects: 2.333100 ms  DeleteObjects: 0.099400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2451.
+Total: 2.606100 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.137700 ms MarkObjects: 2.044800 ms  DeleteObjects: 0.117000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2453.
+Total: 2.894600 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.430400 ms  DeleteObjects: 0.109800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.8 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 2.462200 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.073400 ms MarkObjects: 2.054200 ms  DeleteObjects: 0.128900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2458.
+Total: 2.607700 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.162600 ms  DeleteObjects: 0.103900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.7 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2460.
+Total: 2.990600 ms (FindLiveObjects: 0.539600 ms CreateObjectMapping: 0.181800 ms MarkObjects: 2.149800 ms  DeleteObjects: 0.117700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2011.993868 seconds.
+  path: Assets/Scripts/Character/PlayerBehaviour.cs
+  artifactKey: Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/PlayerBehaviour.cs using Guid(0c6a37a0a4ba45146a435d7eff5ec5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f099878c3f4a0e00458ace73ce9f995b') in 0.008443 seconds
+  Import took 0.011631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.062715 seconds.
+  path: Assets/Scripts/Monster/MonsterBehavior.cs
+  artifactKey: Guid(9a45714d9b9f9634991a0a743e7e91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster/MonsterBehavior.cs using Guid(9a45714d9b9f9634991a0a743e7e91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eac2753f3b38ede4120c6f2335ac9a4') in 0.009431 seconds
+  Import took 0.013914 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2463.
+Total: 2.958700 ms (FindLiveObjects: 0.374800 ms CreateObjectMapping: 0.126600 ms MarkObjects: 2.336900 ms  DeleteObjects: 0.119200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2465.
+Total: 2.948600 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.397600 ms  DeleteObjects: 0.139500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.220077 seconds.
+  path: Assets/Scripts/Monster/MonsterBehavior.cs
+  artifactKey: Guid(9a45714d9b9f9634991a0a743e7e91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Monster/MonsterBehavior.cs using Guid(9a45714d9b9f9634991a0a743e7e91dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbcc1132d9f016d74e231b196e8b515') in 0.005232 seconds
+  Import took 0.008945 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 2.625900 ms (FindLiveObjects: 0.241000 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.177100 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2469.
+Total: 3.149400 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.575900 ms  DeleteObjects: 0.131200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 2.583200 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.149500 ms  DeleteObjects: 0.127900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2473.
+Total: 2.704400 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.105600 ms MarkObjects: 2.248000 ms  DeleteObjects: 0.132700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1036.178573 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/Original/RunFWD.anim
+  artifactKey: Guid(dac5845d5d33cff4c992090825c0bd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/Original/RunFWD.anim using Guid(dac5845d5d33cff4c992090825c0bd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f172a17336c85175fd43cfbaeae5bb28') in 0.015065 seconds
+  Import took 0.019556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.325348 seconds.
+  path: Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller
+  artifactKey: Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller using Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c4d19eab4b22b345d2aeb5ca85e80') in 0.022190 seconds
+  Import took 0.025240 seconds .
 

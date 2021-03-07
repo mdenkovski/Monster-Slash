@@ -19,7 +19,7 @@ public class AnimAttackScript : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.gameObject.GetComponent<PlayerController>().IsAttacking = false;
+        animator.gameObject.GetComponent<PlayerMovement>().StopAttacking();
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

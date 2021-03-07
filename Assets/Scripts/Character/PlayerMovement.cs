@@ -20,10 +20,17 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 InputVector = Vector2.zero;
     private Vector3 MoveDirection = Vector3.zero;
 
+    [SerializeField]
+    private WeaponBehaviour WeaponBehaviour;
+
     private void Awake()
     {
         PlayerController = GetComponent<PlayerController>();
         PlayerAnimator = GetComponent<Animator>();
+        WeaponBehaviour.BoxCollider.enabled = false;
+
+
+        WeaponBehaviour.EnemyHitEvent.AddListener(OnEnemyHit);
     }
 
     public void OnMove(InputValue value)
@@ -68,6 +75,30 @@ public class PlayerMovement : MonoBehaviour
         {
             PlayerAnimator.SetTrigger("Attack");
             PlayerController.IsAttacking = value.isPressed;
+            Invoke("EnableWeaopnCollider", 0.5f);
         }
+    }
+
+    public void StopAttacking()
+    {
+        WeaponBehaviour.BoxCollider.enabled = false;
+        PlayerController.IsAttacking = false;
+    }
+
+
+    private void EnableWeaopnCollider()
+    {
+        WeaponBehaviour.BoxCollider.enabled = true;
+    }
+
+    private void OnEnemyHit()
+    {
+        //Debug.Log("Hit enemy. Disabling collider");
+        WeaponBehaviour.BoxCollider.enabled = false;
+    }
+
+    private void OnDisable()
+    {
+        WeaponBehaviour.EnemyHitEvent.RemoveListener(OnEnemyHit);
     }
 }
