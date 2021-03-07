@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (PlayerController.IsAttacking) return; //dont want to move when attacking
 
-        MoveDirection = transform.forward * InputVector.y + transform.right * InputVector.x;
+        MoveDirection = transform.forward * InputVector.y + transform.right * InputVector.x ;
 
         float currentSpeed = PlayerController.IsRunning ? RunSpeed : WalkSpeed;
 
