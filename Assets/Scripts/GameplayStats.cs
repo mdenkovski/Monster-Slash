@@ -44,4 +44,9 @@ public class GameplayStats : MonoBehaviour
         return Attack;
     }
 
+    public void ResetStats()
+    {
+        CurrentHealth = MaxHealth;
+    }
+
 }

@@ -14,6 +14,8 @@ public class MonsterBehavior : MonoBehaviour
     private NavMeshAgent NavAgent;
 
     [SerializeField]
+    private GameObject PlayerCharacter;
+    [SerializeField]
     private Transform PlayerTarget;
     [SerializeField]
     private BoxCollider Collider;
@@ -32,13 +34,19 @@ public class MonsterBehavior : MonoBehaviour
         NavAgent = GetComponent<NavMeshAgent>();
         Collider = GetComponent<BoxCollider>();
 
+    }
+
+    private void OnEnable()
+    {
         MonsterStats.DeathEvent.AddListener(OnDeath);
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        PlayerTarget = FindObjectOfType<PlayerController>().gameObject.transform;
+        PlayerCharacter = FindObjectOfType<PlayerController>().gameObject;
+        PlayerTarget = PlayerCharacter.transform;
         NavAgent.SetDestination(PlayerTarget.position);
     }
 
@@ -57,9 +65,11 @@ public class MonsterBehavior : MonoBehaviour
 
     private void CheckInRange()
     {
+        
+
         if (Vector3.Distance(transform.position, PlayerTarget.position) <= AttackRange)
         {
-            if (!IsAttacking)
+            if (!IsAttacking && !PlayerCharacter.GetComponent<GameplayStats>().IsDead())
             {
                 if (AttackCoroutine == null) // only attack when attack delay occurs
                 {
@@ -74,9 +84,18 @@ public class MonsterBehavior : MonoBehaviour
     {
         transform.LookAt(PlayerTarget.position);
         //NavAgent.speed = 0;
+
         Animator.SetTrigger("Attack");
+        StartCoroutine(HitPlayer());
         yield return new WaitForSeconds(AttackSpeed);
         AttackCoroutine = null;
+    }
+
+    IEnumerator HitPlayer()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        PlayerCharacter.GetComponent<GameplayStats>().TakeDamage(MonsterStats.GetAttackPower());
     }
 
     public void StopAttacking()

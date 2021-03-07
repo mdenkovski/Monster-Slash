@@ -866,9 +866,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurtleShellMonster
       objectReference: {fileID: 0}
-    - target: {fileID: 7473328256618872176, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 1.5
+    - target: {fileID: 7473328256618872178, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
+      propertyPath: Attack
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
@@ -879,18 +879,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1265811399, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
-      propertyPath: m_XDamping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1265811399, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
-      propertyPath: m_YDamping
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1265811399, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
-      propertyPath: m_ZDamping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 382908023468077911, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
       propertyPath: m_Name
       value: Player
@@ -938,10 +926,6 @@ PrefabInstance:
     - target: {fileID: 1016560609581754861, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020060957643447316, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
-      propertyPath: RotationSpeed
-      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
