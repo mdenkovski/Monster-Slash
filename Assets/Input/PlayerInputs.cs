@@ -19,14 +19,6 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
             ""id"": ""f92165aa-5d57-4815-80a4-329de1184112"",
             ""actions"": [
                 {
-                    ""name"": ""Move"",
-                    ""type"": ""Value"",
-                    ""id"": ""64d90346-5379-4390-9a53-a907675e3e2e"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
                     ""name"": ""Run"",
                     ""type"": ""Button"",
                     ""id"": ""09fb9d55-b6c3-4053-8603-22a945966ee2"",
@@ -41,108 +33,17 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": ""Press""
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""48c92e1c-fd51-401b-8a5c-2840bcc23862"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
-                {
-                    ""name"": ""WASD"",
-                    ""id"": ""18801554-f6c3-43f2-8ef1-d0475f08deb1"",
-                    ""path"": ""Dpad"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""af212830-7405-4825-85d9-d0d3dc699468"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""d472a289-3654-4e15-a88b-3884cf679394"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""afd1eaae-f872-4586-943b-0486bba0ab41"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""b21409b9-2654-4224-8752-57b4e4e85734"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""f00c291d-0f01-4733-9665-e96d6d1d43a4"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""5967148c-2fd2-4b35-9c0b-ce0de12b41c4"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""d0435c0e-a0d7-49af-a692-7efad5386c85"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""ad742022-cb61-495f-a37e-33a4e09b301c"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
                 {
                     ""name"": """",
                     ""id"": ""3622a197-7df4-48a7-b0f4-d8647be04845"",
@@ -162,6 +63,138 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ac727fb6-7afa-4279-b6c2-4df1be13bc44"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""2fbd1cc2-6fc9-4750-a308-a22ee5bc2f13"",
+                    ""path"": ""Dpad"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""dfc7b7e7-ec5d-4c36-b047-bc52c489204b"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""a62f092c-7262-49dd-9961-14855b17a38d"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""a2c527e8-8080-49a3-88c1-0728031922f2"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""ddbdc4af-9bd2-4543-826f-d6eea7d1bec6"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""478c4398-9766-42c5-8187-ba4f46474110"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""f090924a-23dd-4d2c-98a3-43a71d631e3c"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""475df5d7-cef8-4d70-bed3-295a8fb85cb3"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""de4ff45e-4f20-4adf-9a26-d3bb195040c3"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""eeb941e0-c93d-4331-a260-6cfcb488ac86"",
+                    ""path"": ""<XRController>/{Primary2DAxis}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""XR"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f4082943-0818-436f-b04b-0d4db7fd7956"",
+                    ""path"": ""<Joystick>/stick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Joystick"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -678,9 +711,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
 }");
         // HackAndSlash
         m_HackAndSlash = asset.FindActionMap("HackAndSlash", throwIfNotFound: true);
-        m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
         m_HackAndSlash_Run = m_HackAndSlash.FindAction("Run", throwIfNotFound: true);
         m_HackAndSlash_Attack = m_HackAndSlash.FindAction("Attack", throwIfNotFound: true);
+        m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -742,16 +775,16 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     // HackAndSlash
     private readonly InputActionMap m_HackAndSlash;
     private IHackAndSlashActions m_HackAndSlashActionsCallbackInterface;
-    private readonly InputAction m_HackAndSlash_Move;
     private readonly InputAction m_HackAndSlash_Run;
     private readonly InputAction m_HackAndSlash_Attack;
+    private readonly InputAction m_HackAndSlash_Move;
     public struct HackAndSlashActions
     {
         private @PlayerInputs m_Wrapper;
         public HackAndSlashActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
         public InputAction @Run => m_Wrapper.m_HackAndSlash_Run;
         public InputAction @Attack => m_Wrapper.m_HackAndSlash_Attack;
+        public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
         public InputActionMap Get() { return m_Wrapper.m_HackAndSlash; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -761,28 +794,28 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_HackAndSlashActionsCallbackInterface != null)
             {
-                @Move.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
                 @Run.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
                 @Run.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
                 @Run.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnRun;
                 @Attack.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
                 @Attack.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
                 @Attack.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnAttack;
+                @Move.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnMove;
             }
             m_Wrapper.m_HackAndSlashActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Move.started += instance.OnMove;
-                @Move.performed += instance.OnMove;
-                @Move.canceled += instance.OnMove;
                 @Run.started += instance.OnRun;
                 @Run.performed += instance.OnRun;
                 @Run.canceled += instance.OnRun;
                 @Attack.started += instance.OnAttack;
                 @Attack.performed += instance.OnAttack;
                 @Attack.canceled += instance.OnAttack;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
             }
         }
     }
@@ -894,9 +927,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     public UIActions @UI => new UIActions(this);
     public interface IHackAndSlashActions
     {
-        void OnMove(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

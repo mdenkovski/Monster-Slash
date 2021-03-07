@@ -13,9 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     private PlayerController PlayerController;
     private Animator PlayerAnimator;
-    private NavMeshAgent PlayerNavMeshAgent;
 
-    private Transform PlayerTransform;
 
     [SerializeField] private float MoveDirectionBuffer = 1.0f;
     private Vector3 NextPositionCheck;
@@ -24,10 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        PlayerTransform = transform;
         PlayerController = GetComponent<PlayerController>();
         PlayerAnimator = GetComponent<Animator>();
-        PlayerNavMeshAgent = GetComponent<NavMeshAgent>();
     }
 
     public void OnMove(InputValue value)
@@ -36,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerAnimator.SetFloat("MovementX", InputVector.x);
         PlayerAnimator.SetFloat("MovementY", InputVector.y);
     }
+
 
 
     public void OnRun(InputValue value)
