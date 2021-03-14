@@ -15,11 +15,11 @@ E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51008
+54783
 Successfully changed project path to: E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 E:/Michael/Desktop/GAME3033 Github/Monster-Slash
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path G:/Program Files/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,62 +35,150 @@ Initialize mono
 Mono path[0] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'G:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: G:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001356 seconds.
+Registered in 0.001294 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.912 seconds
+- Completed reload, in  1.798 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000905 seconds.
+Registered in 0.000750 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
+- Completed reload, in  1.175 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.1 MB.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 2.498500 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.110400 ms MarkObjects: 1.957100 ms  DeleteObjects: 0.225300 ms)
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 4.683400 ms (FindLiveObjects: 0.360700 ms CreateObjectMapping: 0.290600 ms MarkObjects: 3.684900 ms  DeleteObjects: 0.344800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller
-  artifactKey: Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller using Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6176caa196b0a0ed58b312582fbf1742') in 0.036978 seconds
-  Import took 0.041478 seconds .
+  path: Assets/Animations/Monsters/TurtleShell/TutleShellAnimController 1.controller
+  artifactKey: Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/TurtleShell/TutleShellAnimController 1.controller using Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d3a229bf73d98d467fd8502349c413') in 0.046827 seconds
+  Import took 0.066423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.953467 seconds.
+  path: Assets/Animations/Monsters/Slime/SlimeAnimController.controller
+  artifactKey: Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/SlimeAnimController.controller using Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca86fe3dccd569b7b65205ccc620576') in 0.019910 seconds
+  Import took 0.042135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.523270 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/Attack01.anim
+  artifactKey: Guid(9cdf27a7fea03da438009cfe9abe0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/Attack01.anim using Guid(9cdf27a7fea03da438009cfe9abe0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cbd99a888ddf6167cafea87b51d209') in 0.011508 seconds
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.535324 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/Die.anim
+  artifactKey: Guid(3a94f8e6c5b30c44eb12ca0639a65768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/Die.anim using Guid(3a94f8e6c5b30c44eb12ca0639a65768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5959a9b083430022862d49248d4bf2c0') in 0.009535 seconds
+  Import took 0.012469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.433775 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/IdleNormal.anim
+  artifactKey: Guid(e73f6081898072b4aa3ce6ca47ef3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/IdleNormal.anim using Guid(e73f6081898072b4aa3ce6ca47ef3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e070639f9bdb76634910d38854ad256') in 0.008450 seconds
+  Import took 0.011622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/IdleNormal.anim
+  artifactKey: Guid(e73f6081898072b4aa3ce6ca47ef3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/IdleNormal.anim using Guid(e73f6081898072b4aa3ce6ca47ef3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e070639f9bdb76634910d38854ad256') in 0.004780 seconds
+  Import took 0.008732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.161158 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/WalkBWD.anim
+  artifactKey: Guid(33d473e295b8f7946ad29f085b18ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/WalkBWD.anim using Guid(33d473e295b8f7946ad29f085b18ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511f03adec1f8e7746345df3aff18c8') in 0.008472 seconds
+  Import took 0.011429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/WalkBWD.anim
+  artifactKey: Guid(33d473e295b8f7946ad29f085b18ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/WalkBWD.anim using Guid(33d473e295b8f7946ad29f085b18ef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511f03adec1f8e7746345df3aff18c8') in 0.004739 seconds
+  Import took 0.007833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.623506 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/WalkFWD.anim
+  artifactKey: Guid(549cc4b3adbd88246bd589243b164ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/WalkFWD.anim using Guid(549cc4b3adbd88246bd589243b164ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a002bac169fab3259d828616faba76') in 0.007961 seconds
+  Import took 0.011132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/WalkFWD.anim
+  artifactKey: Guid(549cc4b3adbd88246bd589243b164ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/WalkFWD.anim using Guid(549cc4b3adbd88246bd589243b164ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a002bac169fab3259d828616faba76') in 0.004398 seconds
+  Import took 0.007759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.666774 seconds.
+  path: Assets/Animations/Monsters/Slime/SlimeAnimController.controller
+  artifactKey: Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/SlimeAnimController.controller using Guid(0507c7be859b8b543a5719fa3f6cdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae5abff90845dcace58dfb009c14b02') in 0.014656 seconds
+  Import took 0.017851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.219829 seconds.
+  path: Assets/Animations/Monsters/Slime/Original/RunFWD.anim
+  artifactKey: Guid(275af637cba879941ad99c324cc15562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Monsters/Slime/Original/RunFWD.anim using Guid(275af637cba879941ad99c324cc15562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39f51e0737a713add4601e1320f9d02') in 0.009009 seconds
+  Import took 0.012868 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000848 seconds.
+Registered in 0.000851 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -105,55 +193,14 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.017 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+Unloading 1879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2352.
-Total: 3.104000 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.198900 ms MarkObjects: 2.316700 ms  DeleteObjects: 0.115100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000780 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[E:/Michael/Desktop/GAME3033 Game Engines Projects/Monster Slash/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.7 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2354.
-Total: 3.229400 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.845600 ms  DeleteObjects: 0.096600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 221.657103 seconds.
-  path: Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller
-  artifactKey: Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Monsters/TurtleShell/TutleShellAnimController.controller using Guid(35df959d94ae82c46b16a7c0849ac43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdb748b12ea8701416389a517da9bce') in 0.016924 seconds
-  Import took 0.020828 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.326900 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.181700 ms MarkObjects: 2.693000 ms  DeleteObjects: 0.096100 ms)
 

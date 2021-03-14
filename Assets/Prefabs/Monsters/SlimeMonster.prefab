@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5048782160177476883}
   - component: {fileID: 5137691709500580545}
+  - component: {fileID: 4840238848807015098}
+  - component: {fileID: 2595981774133505923}
+  - component: {fileID: 9112505038433449915}
+  - component: {fileID: 8638430987464706046}
   m_Layer: 6
   m_Name: SlimeMonster
   m_TagString: Monster
@@ -43,7 +47,7 @@ Animator:
   m_GameObject: {fileID: 5050922097516187821}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 032e9c3d6b8f7bd4281b52741574f3af, type: 3}
-  m_Controller: {fileID: 9100000, guid: fb53b4d3a4f06844c90da7297e9082de, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0507c7be859b8b543a5719fa3f6cdc79, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -52,6 +56,80 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!195 &4840238848807015098
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5050922097516187821}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.7
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 1.5
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.02
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!65 &2595981774133505923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5050922097516187821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 1.8, z: 1.2}
+  m_Center: {x: 0, y: 0.47, z: 0}
+--- !u!114 &9112505038433449915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5050922097516187821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec994584cb689747988e96ca9c5f5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100
+  CurrentHealth: 0
+  Attack: 50
+  Defence: 0
+  DeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8638430987464706046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5050922097516187821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a45714d9b9f9634991a0a743e7e91dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Animator: {fileID: 0}
+  MonsterStats: {fileID: 0}
+  NavAgent: {fileID: 0}
+  PlayerCharacter: {fileID: 0}
+  PlayerTarget: {fileID: 0}
+  Collider: {fileID: 0}
+  AttackRange: 2
+  AttackSpeed: 2
 --- !u!1 &5050969472525927257
 GameObject:
   m_ObjectHideFlags: 0

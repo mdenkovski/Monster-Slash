@@ -653,7 +653,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16698
+  m_Name: pb_Mesh16704
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -824,7 +824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.66
+      value: 4.06
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -832,11 +832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.84
+      value: 13.16
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -844,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -856,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 6936239342787727866, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -865,6 +865,10 @@ PrefabInstance:
     - target: {fileID: 6941551509678785322, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: m_Name
       value: TurtleShellMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941551509678785322, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7473328256618872178, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
       propertyPath: Attack
@@ -942,7 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3620687
+      value: -4.32
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -950,11 +954,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7846618
+      value: 13.98
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -962,7 +966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -974,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 5048782160177476883, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -983,6 +987,18 @@ PrefabInstance:
     - target: {fileID: 5050922097516187821, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_Name
       value: SlimeMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638430987464706046, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
+      propertyPath: AttackSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112505038433449915, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
+      propertyPath: Attack
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112505038433449915, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
+      propertyPath: MaxHealth
+      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
