@@ -289,9 +289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ec994584cb689747988e96ca9c5f5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 100
+  MaxHealth: 200
   CurrentHealth: 0
-  Attack: 0
+  Attack: 10
   Defence: 0
   DeathEvent:
     m_PersistentCalls:
@@ -311,10 +311,11 @@ MonoBehaviour:
   Animator: {fileID: 0}
   MonsterStats: {fileID: 0}
   NavAgent: {fileID: 0}
+  PlayerCharacter: {fileID: 0}
   PlayerTarget: {fileID: 0}
   Collider: {fileID: 0}
   AttackRange: 2
-  AttackSpeed: 2
+  AttackSpeed: 3
 --- !u!1 &6941576960580514076
 GameObject:
   m_ObjectHideFlags: 0

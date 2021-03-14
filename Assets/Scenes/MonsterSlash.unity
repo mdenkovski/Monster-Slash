@@ -866,14 +866,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurtleShellMonster
       objectReference: {fileID: 0}
-    - target: {fileID: 6941551509678785322, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7473328256618872178, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
-      propertyPath: Attack
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
 --- !u!1001 &2020060957643447318
@@ -987,18 +979,6 @@ PrefabInstance:
     - target: {fileID: 5050922097516187821, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_Name
       value: SlimeMonster
-      objectReference: {fileID: 0}
-    - target: {fileID: 8638430987464706046, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
-      propertyPath: AttackSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9112505038433449915, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
-      propertyPath: Attack
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 9112505038433449915, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
-      propertyPath: MaxHealth
-      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
