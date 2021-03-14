@@ -811,6 +811,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1719346042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1471825698, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+  m_PrefabInstance: {fileID: 2020060957643447318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &568509246578310725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -866,6 +871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurtleShellMonster
       objectReference: {fileID: 0}
+    - target: {fileID: 6941551509678785322, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616a594cee1425d4cae0e9c92bebf48a, type: 3}
 --- !u!1001 &2020060957643447318
@@ -875,6 +884,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1471825699, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471825699, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: m_Lens.Dutch
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471825700, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6754832
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471825700, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7905756
+      objectReference: {fileID: 0}
     - target: {fileID: 382908023468077911, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
       propertyPath: m_Name
       value: Player
@@ -923,6 +948,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2020060957643447316, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: PlayerCamera
+      value: 
+      objectReference: {fileID: 1719346042}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
 --- !u!1001 &5052664636617640279
@@ -979,6 +1008,10 @@ PrefabInstance:
     - target: {fileID: 5050922097516187821, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
       propertyPath: m_Name
       value: SlimeMonster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050922097516187821, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ecc2a8959e57b24bb770782eeb38ab6, type: 3}

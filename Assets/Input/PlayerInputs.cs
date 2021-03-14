@@ -49,6 +49,14 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Axis"",
                     ""processors"": ""Normalize(min=-20,max=20)"",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Tilt"",
+                    ""type"": ""Value"",
+                    ""id"": ""2363bd97-2b7d-423b-bbf7-d3cefaee2c4f"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": ""Normalize(min=-20,max=20)"",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -214,6 +222,17 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a4119285-d12e-4322-99c3-c1d87dd4057a"",
+                    ""path"": ""<Mouse>/delta/y"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tilt"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -734,6 +753,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_HackAndSlash_Attack = m_HackAndSlash.FindAction("Attack", throwIfNotFound: true);
         m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
         m_HackAndSlash_Look = m_HackAndSlash.FindAction("Look", throwIfNotFound: true);
+        m_HackAndSlash_Tilt = m_HackAndSlash.FindAction("Tilt", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -799,6 +819,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private readonly InputAction m_HackAndSlash_Attack;
     private readonly InputAction m_HackAndSlash_Move;
     private readonly InputAction m_HackAndSlash_Look;
+    private readonly InputAction m_HackAndSlash_Tilt;
     public struct HackAndSlashActions
     {
         private @PlayerInputs m_Wrapper;
@@ -807,6 +828,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         public InputAction @Attack => m_Wrapper.m_HackAndSlash_Attack;
         public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
         public InputAction @Look => m_Wrapper.m_HackAndSlash_Look;
+        public InputAction @Tilt => m_Wrapper.m_HackAndSlash_Tilt;
         public InputActionMap Get() { return m_Wrapper.m_HackAndSlash; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -828,6 +850,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Look.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnLook;
+                @Tilt.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
+                @Tilt.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
+                @Tilt.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
             }
             m_Wrapper.m_HackAndSlashActionsCallbackInterface = instance;
             if (instance != null)
@@ -844,6 +869,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
+                @Tilt.started += instance.OnTilt;
+                @Tilt.performed += instance.OnTilt;
+                @Tilt.canceled += instance.OnTilt;
             }
         }
     }
@@ -959,6 +987,7 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         void OnAttack(InputAction.CallbackContext context);
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
+        void OnTilt(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

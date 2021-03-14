@@ -36,6 +36,14 @@
                     "expectedControlType": "Axis",
                     "processors": "Normalize(min=-20,max=20)",
                     "interactions": ""
+                },
+                {
+                    "name": "Tilt",
+                    "type": "Value",
+                    "id": "2363bd97-2b7d-423b-bbf7-d3cefaee2c4f",
+                    "expectedControlType": "Axis",
+                    "processors": "Normalize(min=-20,max=20)",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -201,6 +209,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4119285-d12e-4322-99c3-c1d87dd4057a",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tilt",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

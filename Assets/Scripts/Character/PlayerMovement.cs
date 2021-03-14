@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.AI;
+using Cinemachine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private WeaponBehaviour WeaponBehaviour;
+
+    [SerializeField]
+    private GameObject PlayerCamera;
 
     private void Awake()
     {
@@ -56,6 +60,13 @@ public class PlayerMovement : MonoBehaviour
     {
         //Debug.Log(value.Get());
         transform.Rotate(Vector3.up, RotationSpeed * value.Get<float>() * Time.deltaTime);
+    }
+
+    public void OnTilt(InputValue value)
+    {
+        float TiltAmount = value.Get<float>();
+        //Debug.Log(TiltAmount);
+        PlayerCamera.transform.Rotate(-TiltAmount * RotationSpeed * Time.deltaTime, 0.0f, 0.0f);
     }
 
     // Update is called once per frame
