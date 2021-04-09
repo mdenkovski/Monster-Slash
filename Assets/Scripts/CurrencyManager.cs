@@ -8,6 +8,7 @@ public class CurrencyManager : MonoBehaviour
 
     public static CurrencyManager Instance;
 
+    [SerializeField]
     private int CurrentGold = 0;
 
     public UnityEvent GoldChanged;

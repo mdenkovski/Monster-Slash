@@ -1798,9 +1798,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopInventory:
   - {fileID: 11400000, guid: ab4e91180cbcb2744924671be5a37a25, type: 2}
+  - {fileID: 11400000, guid: 83bb72888fb21574ca2db50bdf9f8c61, type: 2}
+  - {fileID: 11400000, guid: 19125fe2fb14ce140b199342ff3a1498, type: 2}
+  - {fileID: 11400000, guid: 7109d0cb65e656a40bbb9522bbc6207b, type: 2}
+  - {fileID: 11400000, guid: ef2e487496602a448b4e9d6680cbc18a, type: 2}
+  - {fileID: 11400000, guid: 7d8daec7fe230164d8a0690f6b700926, type: 2}
+  - {fileID: 11400000, guid: 0a8f55c3eda941144bfde61eb2c840ec, type: 2}
   - {fileID: 11400000, guid: 83e4a215b373df141ada4e8d7ebb7a88, type: 2}
-  - {fileID: 11400000, guid: ab4e91180cbcb2744924671be5a37a25, type: 2}
-  - {fileID: 11400000, guid: 83e4a215b373df141ada4e8d7ebb7a88, type: 2}
+  - {fileID: 11400000, guid: fbbee89b88b74444faae8e12826177cc, type: 2}
+  - {fileID: 11400000, guid: 667737f492c1b6140a51afc791e0f324, type: 2}
+  - {fileID: 11400000, guid: 716be1968909830498b8689671752f13, type: 2}
+  - {fileID: 11400000, guid: 53a3ca6d29a31a34a8fe197a4085a85c, type: 2}
+  - {fileID: 11400000, guid: 7fca8b633c768754ca5222d19053c0fa, type: 2}
+  - {fileID: 11400000, guid: fafa3468b23ef114381f8daf8c7b7656, type: 2}
+  - {fileID: 11400000, guid: 469915a43944a5c4ea5405877bd37645, type: 2}
+  - {fileID: 11400000, guid: d370e4c72abcf97409f30b283bc7e84f, type: 2}
+  - {fileID: 11400000, guid: 74466a13dcb758f4187c422539a83fe5, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,6 +4417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d281cff3d2face14e80079a77f3d9810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentGold: 0
   GoldChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4622,6 +4636,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016560609581754861, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607536619624904783, guid: 9ae53199f240d004c82f4d9a2cdda691, type: 3}
+      propertyPath: StartingInventory.Array.size
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
