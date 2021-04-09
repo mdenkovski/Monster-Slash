@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,8 @@ public class PlayerInventory : MonoBehaviour
 
     public List<ItemScriptable> StartingInventory;
 
+    private string InventorySaveName = "InventorySave";
+
     private void Awake()
     {
         Controller = GetComponent<PlayerController>();
@@ -24,6 +27,11 @@ public class PlayerInventory : MonoBehaviour
         {
             AddItem(item);
         }
+
+        SaveManager.Instance.SaveGameEvent.AddListener(SaveInventory);
+        SaveManager.Instance.LoadGameEvent.AddListener(LoadInventory);
+
+        //LoadInventory();
     }
 
     internal void DeactivateAllArmorExceptEquipped(ArmorScriptable armorRemaining)
@@ -40,12 +48,16 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    public void AddItem(ItemScriptable item)
+    public void AddItem(ItemScriptable item, bool equipped = false)
     {
         if (item == null) return;
 
         ItemScriptable itemClone = Instantiate(item);
         itemClone.Initialize(Controller);
+        if (equipped)
+        {
+            itemClone.EquipItem(Controller);
+        }
         Items.Add(itemClone);
     }
 
@@ -72,4 +84,37 @@ public class PlayerInventory : MonoBehaviour
             }
         }
     }
+    private void SaveInventory()
+    {
+        InventorySave inventorySave = new InventorySave();
+        List<ItemSave> ItemSaveList = GetItemList().Select(
+            item => new ItemSave(item)).ToList();
+
+        inventorySave.Items = ItemSaveList;
+       
+
+        string inventoryString = JsonUtility.ToJson(inventorySave);
+        PlayerPrefs.SetString(InventorySaveName, inventoryString);
+    }
+
+    private void LoadInventory()
+    {
+        if (!PlayerPrefs.HasKey(InventorySaveName)) return;
+
+        string loadedInventoryString = PlayerPrefs.GetString(InventorySaveName);
+        InventorySave inventory = JsonUtility.FromJson<InventorySave>(loadedInventoryString);
+
+        Items.Clear();
+        foreach (ItemSave itemSaveData in inventory.Items)
+        {
+            ItemScriptable item = InventoryMasterList.Instance.GetItemReference(itemSaveData.Name);
+            AddItem(item, itemSaveData.equipped);
+        }
+    }
+}
+
+[Serializable]
+public class InventorySave
+{
+    public List<ItemSave> Items = new List<ItemSave>();
 }

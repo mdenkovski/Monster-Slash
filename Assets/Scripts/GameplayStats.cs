@@ -95,4 +95,8 @@ public class GameplayStats : MonoBehaviour
         DefenceModifier = 0;
     }
 
+    private void OnDestroy()
+    {
+        DeathEvent.RemoveAllListeners();
+    }
 }

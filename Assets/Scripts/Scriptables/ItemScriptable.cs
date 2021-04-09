@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System;
 
 public enum ItemCategory
 {
@@ -41,4 +42,17 @@ public abstract class ItemScriptable : ScriptableObject
     public abstract void EquipItem(PlayerController controller);
 
     
+}
+
+[Serializable]
+public class ItemSave
+{
+    public string Name;
+    public bool equipped;
+
+    public ItemSave(ItemScriptable item)
+    {
+        Name = item.Name;
+        equipped = item.Equipped;
+    }
 }

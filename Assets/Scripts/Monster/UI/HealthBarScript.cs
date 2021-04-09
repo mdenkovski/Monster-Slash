@@ -8,10 +8,7 @@ public class HealthBarScript : MonoBehaviour
     public Slider Slider;
 
 
-    private void Awake()
-    {
-        Slider = GetComponent<Slider>();
-    }
+    
     public void Initialize(float startingHealth )
     {
         Slider.maxValue = startingHealth;

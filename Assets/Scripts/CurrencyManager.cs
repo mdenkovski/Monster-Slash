@@ -13,6 +13,8 @@ public class CurrencyManager : MonoBehaviour
 
     public UnityEvent GoldChanged;
 
+    private string GoldSaveName = "GoldSave";
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -23,7 +25,12 @@ public class CurrencyManager : MonoBehaviour
         {
             Instance = this;
         }
+
+        SaveManager.Instance.SaveGameEvent.AddListener(SaveCurrency);
+        SaveManager.Instance.LoadGameEvent.AddListener(LoadCurrency);
     }
+
+    
 
     public int GetCurrentGold()
     {
@@ -57,5 +64,19 @@ public class CurrencyManager : MonoBehaviour
     {
         CurrentGold = amount;
         GoldChanged.Invoke();
+    }
+
+    private void SaveCurrency()
+    {
+        
+        PlayerPrefs.SetInt(GoldSaveName, CurrentGold);
+    }
+
+    private void LoadCurrency()
+    {
+        if (!PlayerPrefs.HasKey(GoldSaveName)) return;
+
+        SetCurrentGold(PlayerPrefs.GetInt(GoldSaveName));
+        
     }
 }
