@@ -13,6 +13,8 @@ public class GameMenuController : MonoBehaviour
     private GameUIWidget ShopMenu;
     [SerializeField]
     private GameUIWidget GameHUD;
+    [SerializeField]
+    private GameUIWidget GameOverHUD;
 
 
     private void Awake()
@@ -44,11 +46,18 @@ public class GameMenuController : MonoBehaviour
         InventoryMenu.EnableWidget();
     }
 
+    public void GoToGameOver()
+    {
+        HideAllMenus();
+        GameOverHUD.EnableWidget();
+    }
+
     private void HideAllMenus()
     {
         PauseMenu.DisableWidget();
         InventoryMenu.DisableWidget();
         ShopMenu.DisableWidget();
         GameHUD.DisableWidget();
+        GameOverHUD.DisableWidget();
     }
 }

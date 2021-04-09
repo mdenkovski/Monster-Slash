@@ -20,16 +20,17 @@ public class PlayerInventory : MonoBehaviour
     private void Awake()
     {
         Controller = GetComponent<PlayerController>();
+        SaveManager.Instance.SaveGameEvent.AddListener(SaveInventory);
+        SaveManager.Instance.LoadGameEvent.AddListener(LoadInventory);
     }
     private void Start()
     {
-        foreach (ItemScriptable item in StartingInventory)
-        {
-            AddItem(item);
-        }
+        //foreach (ItemScriptable item in StartingInventory)
+        //{
+        //    AddItem(item);
+        //}
 
-        SaveManager.Instance.SaveGameEvent.AddListener(SaveInventory);
-        SaveManager.Instance.LoadGameEvent.AddListener(LoadInventory);
+        
 
         //LoadInventory();
     }

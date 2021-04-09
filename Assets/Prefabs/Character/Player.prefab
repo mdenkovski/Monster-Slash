@@ -471,8 +471,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 100
   CurrentHealth: 0
-  Attack: 50
-  Defence: 5
+  Attack: 80
+  Defence: 20
   DeathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -502,9 +502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Items: []
   Controller: {fileID: 0}
-  StartingInventory:
-  - {fileID: 11400000, guid: 83e4a215b373df141ada4e8d7ebb7a88, type: 2}
-  - {fileID: 11400000, guid: ab4e91180cbcb2744924671be5a37a25, type: 2}
+  StartingInventory: []
 --- !u!1 &471154194392276900
 GameObject:
   m_ObjectHideFlags: 0

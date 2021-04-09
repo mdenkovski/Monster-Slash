@@ -49,9 +49,11 @@ public class MonsterSpawner : MonoBehaviour
         GameObject EnemyToSpawn = EnemyPrefabs[Random.Range(0, EnemyPrefabs.Length)];
         SpawnVolume spawnVolume = SpawnVolume[Random.Range(0, SpawnVolume.Length)];
 
-
-        GameplayStats monsterStats = Instantiate(EnemyToSpawn, spawnVolume.GetPositionInBounds(), spawnVolume.transform.rotation).GetComponent<GameplayStats>();
+        GameObject enemy = Instantiate(EnemyToSpawn, spawnVolume.GetPositionInBounds(), spawnVolume.transform.rotation);
+        GameplayStats monsterStats = enemy.GetComponent<GameplayStats>();
         monsterStats.DeathEvent.AddListener(ReduceNumActiveEnemies);
+        MonsterBehavior monsterBehavior = enemy.GetComponent<MonsterBehavior>();
+        monsterBehavior.ModifyDifficulty(WaveNumber);
         EnemiesRemaining++;
 
     }
@@ -74,8 +76,15 @@ public class MonsterSpawner : MonoBehaviour
         {
             Destroy(monster);
         }
+        EnemiesRemaining = 0;
         CanSpawn = true;
         TimeSinceLastSpawn = 0;
         WaveNumber = 0;
+        GameHUD.UpdateWaveInfo(WaveNumber);
+    }
+
+    public int GetCurrentWave()
+    {
+        return WaveNumber;
     }
 }

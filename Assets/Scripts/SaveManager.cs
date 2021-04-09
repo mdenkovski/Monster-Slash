@@ -23,7 +23,10 @@ public class SaveManager : MonoBehaviour
 
 
     }
-
+    private void Start()
+    {
+        LoadGame();
+    }
     public void SaveGame()
     {
         SaveGameEvent.Invoke();

@@ -106,8 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 120
   CurrentHealth: 0
-  Attack: 20
-  Defence: 0
+  Attack: 30
+  Defence: 5
   DeathEvent:
     m_PersistentCalls:
       m_Calls: []

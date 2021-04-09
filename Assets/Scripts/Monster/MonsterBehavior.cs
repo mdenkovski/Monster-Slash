@@ -27,8 +27,10 @@ public class MonsterBehavior : MonoBehaviour
     private float AttackSpeed = 2.0f;
     private IEnumerator AttackCoroutine;
 
+
     [SerializeField]
     private int GoldValue = 0;
+    private int ModifiedGoldValue;
 
     private void Awake()
     {
@@ -36,7 +38,7 @@ public class MonsterBehavior : MonoBehaviour
         MonsterStats = GetComponent<GameplayStats>();
         NavAgent = GetComponent<NavMeshAgent>();
         Collider = GetComponent<BoxCollider>();
-
+        ModifiedGoldValue = GoldValue;
     }
 
     private void OnEnable()
@@ -122,4 +124,9 @@ public class MonsterBehavior : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    public void ModifyDifficulty(int difficulty)
+    {
+        MonsterStats.SetDifficulty(difficulty);
+        ModifiedGoldValue = GoldValue + (int)(1.5f * (difficulty - 1) * GoldValue);
+    }
 }

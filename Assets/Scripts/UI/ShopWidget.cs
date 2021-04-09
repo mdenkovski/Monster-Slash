@@ -19,12 +19,14 @@ public class ShopWidget : GameUIWidget
         InventoryPanel = GetComponentInChildren<ShopInventoryPanel>();
         InventoryPanel.ShopWidget = this;
         SaveManager.Instance.SaveGameEvent.AddListener(SaveInventory);
-        SaveManager.Instance.LoadGameEvent.AddListener(LoadInventory);
+        //SaveManager.Instance.LoadGameEvent.AddListener(LoadInventory);
+        LoadInventory();
     }
     
 
     private void OnEnable()
     {
+        
         InventoryPanel.PopulatePanel(ShopInventory);
     }
 

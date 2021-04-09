@@ -9,6 +9,7 @@ public class GameplayStats : MonoBehaviour
     [Header("Stats")]
     [SerializeField]
     private float MaxHealth = 100.0f;
+    private float ModifiedMaxHealth;
     [SerializeField]
     private float CurrentHealth;
     [SerializeField]
@@ -17,7 +18,8 @@ public class GameplayStats : MonoBehaviour
     [SerializeField]
     private float Defence;
 
-   
+    private float AttackDifficultyMultiplier = 1.0f;
+    private float DefenceDifficultyMultiplier = 1.0f;
 
     private float DefenceModifier = 0;
 
@@ -25,11 +27,14 @@ public class GameplayStats : MonoBehaviour
 
     private HealthBarScript HealthBar;
 
+    private bool Dead = false;
+
     private void Awake()
     {
         //set current health to max health
-        CurrentHealth = MaxHealth;
         HealthBar = GetComponentInChildren<HealthBarScript>();
+        CurrentHealth = MaxHealth;
+        ModifiedMaxHealth = MaxHealth;
         if (HealthBar != null)
         {
             HealthBar.Initialize(MaxHealth);
@@ -38,13 +43,13 @@ public class GameplayStats : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        float resultingDamage = damage - (Defence + DefenceModifier);
+        float resultingDamage = damage - ((Defence + DefenceModifier) * DefenceDifficultyMultiplier);
         if (resultingDamage <= 0)
         {
             resultingDamage = 1; //always have at least one damage go through
         }
         CurrentHealth -= resultingDamage;
-        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, MaxHealth);
+        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, ModifiedMaxHealth);
 
         if (HealthBar != null)
         {
@@ -52,9 +57,10 @@ public class GameplayStats : MonoBehaviour
         }
 
 
-        if (CurrentHealth <=0)
+        if (CurrentHealth <= 0 && !Dead)
         {
             DeathEvent.Invoke();
+            Dead = true;
         }
 
     }
@@ -66,12 +72,13 @@ public class GameplayStats : MonoBehaviour
 
     public float GetAttackPower()
     {
-        return Attack + AttackModifier;
+        return (Attack + AttackModifier) * AttackDifficultyMultiplier;
     }
 
     public void ResetStats()
     {
         CurrentHealth = MaxHealth;
+        Dead = false;
     }
 
     public void EquipWeapon(WeaponScriptable equippedWeapon)
@@ -98,5 +105,22 @@ public class GameplayStats : MonoBehaviour
     private void OnDestroy()
     {
         DeathEvent.RemoveAllListeners();
+    }
+
+    private void ModifyCurrentHealthScaling(float newHealth)
+    {
+        ModifiedMaxHealth = newHealth;
+        CurrentHealth = ModifiedMaxHealth;
+        if (HealthBar != null)
+        {
+            HealthBar.Initialize(ModifiedMaxHealth);
+        }
+    }
+
+    public void SetDifficulty(int difficulty)
+    {
+        AttackDifficultyMultiplier = 1 + 1.2f * (difficulty-1);
+        DefenceDifficultyMultiplier = 1 + 1.8f * (difficulty-1);
+        ModifyCurrentHealthScaling(MaxHealth + 1.8f * (difficulty - 1));
     }
 }
