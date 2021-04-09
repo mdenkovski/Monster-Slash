@@ -57,6 +57,22 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Axis"",
                     ""processors"": ""Normalize(min=-20,max=20)"",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""89830b35-a16b-4227-98ef-f61248704f5c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Inventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""df2feff9-2695-43e9-b8af-9a08e625e571"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -233,6 +249,28 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Tilt"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""da18c328-b429-4908-98bb-48f314fe4600"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""917970ee-1689-4a79-83c2-a0d79cd6de4a"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inventory"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -743,6 +781,33 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Pause"",
+            ""id"": ""2d539044-a415-4794-ae9a-c44da815de94"",
+            ""actions"": [
+                {
+                    ""name"": ""UnPause"",
+                    ""type"": ""Button"",
+                    ""id"": ""c1ebb30a-2123-44d2-a3c2-216b639d56e2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""2a06d10f-6e81-45fa-a779-981ca253127c"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UnPause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -754,6 +819,8 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_HackAndSlash_Move = m_HackAndSlash.FindAction("Move", throwIfNotFound: true);
         m_HackAndSlash_Look = m_HackAndSlash.FindAction("Look", throwIfNotFound: true);
         m_HackAndSlash_Tilt = m_HackAndSlash.FindAction("Tilt", throwIfNotFound: true);
+        m_HackAndSlash_Pause = m_HackAndSlash.FindAction("Pause", throwIfNotFound: true);
+        m_HackAndSlash_Inventory = m_HackAndSlash.FindAction("Inventory", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -766,6 +833,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
+        // Pause
+        m_Pause = asset.FindActionMap("Pause", throwIfNotFound: true);
+        m_Pause_UnPause = m_Pause.FindAction("UnPause", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -820,6 +890,8 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
     private readonly InputAction m_HackAndSlash_Move;
     private readonly InputAction m_HackAndSlash_Look;
     private readonly InputAction m_HackAndSlash_Tilt;
+    private readonly InputAction m_HackAndSlash_Pause;
+    private readonly InputAction m_HackAndSlash_Inventory;
     public struct HackAndSlashActions
     {
         private @PlayerInputs m_Wrapper;
@@ -829,6 +901,8 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         public InputAction @Move => m_Wrapper.m_HackAndSlash_Move;
         public InputAction @Look => m_Wrapper.m_HackAndSlash_Look;
         public InputAction @Tilt => m_Wrapper.m_HackAndSlash_Tilt;
+        public InputAction @Pause => m_Wrapper.m_HackAndSlash_Pause;
+        public InputAction @Inventory => m_Wrapper.m_HackAndSlash_Inventory;
         public InputActionMap Get() { return m_Wrapper.m_HackAndSlash; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -853,6 +927,12 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Tilt.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
                 @Tilt.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
                 @Tilt.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnTilt;
+                @Pause.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnPause;
+                @Inventory.started -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnInventory;
+                @Inventory.performed -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnInventory;
+                @Inventory.canceled -= m_Wrapper.m_HackAndSlashActionsCallbackInterface.OnInventory;
             }
             m_Wrapper.m_HackAndSlashActionsCallbackInterface = instance;
             if (instance != null)
@@ -872,6 +952,12 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
                 @Tilt.started += instance.OnTilt;
                 @Tilt.performed += instance.OnTilt;
                 @Tilt.canceled += instance.OnTilt;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
+                @Inventory.started += instance.OnInventory;
+                @Inventory.performed += instance.OnInventory;
+                @Inventory.canceled += instance.OnInventory;
             }
         }
     }
@@ -981,6 +1067,39 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         }
     }
     public UIActions @UI => new UIActions(this);
+
+    // Pause
+    private readonly InputActionMap m_Pause;
+    private IPauseActions m_PauseActionsCallbackInterface;
+    private readonly InputAction m_Pause_UnPause;
+    public struct PauseActions
+    {
+        private @PlayerInputs m_Wrapper;
+        public PauseActions(@PlayerInputs wrapper) { m_Wrapper = wrapper; }
+        public InputAction @UnPause => m_Wrapper.m_Pause_UnPause;
+        public InputActionMap Get() { return m_Wrapper.m_Pause; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(PauseActions set) { return set.Get(); }
+        public void SetCallbacks(IPauseActions instance)
+        {
+            if (m_Wrapper.m_PauseActionsCallbackInterface != null)
+            {
+                @UnPause.started -= m_Wrapper.m_PauseActionsCallbackInterface.OnUnPause;
+                @UnPause.performed -= m_Wrapper.m_PauseActionsCallbackInterface.OnUnPause;
+                @UnPause.canceled -= m_Wrapper.m_PauseActionsCallbackInterface.OnUnPause;
+            }
+            m_Wrapper.m_PauseActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @UnPause.started += instance.OnUnPause;
+                @UnPause.performed += instance.OnUnPause;
+                @UnPause.canceled += instance.OnUnPause;
+            }
+        }
+    }
+    public PauseActions @Pause => new PauseActions(this);
     public interface IHackAndSlashActions
     {
         void OnRun(InputAction.CallbackContext context);
@@ -988,6 +1107,8 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnTilt(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
+        void OnInventory(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
@@ -1001,5 +1122,9 @@ public class @PlayerInputs : IInputActionCollection, IDisposable
         void OnRightClick(InputAction.CallbackContext context);
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
+    }
+    public interface IPauseActions
+    {
+        void OnUnPause(InputAction.CallbackContext context);
     }
 }

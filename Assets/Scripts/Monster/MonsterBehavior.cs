@@ -27,6 +27,9 @@ public class MonsterBehavior : MonoBehaviour
     private float AttackSpeed = 2.0f;
     private IEnumerator AttackCoroutine;
 
+    [SerializeField]
+    private int GoldValue = 0;
+
     private void Awake()
     {
         Animator = GetComponent<Animator>();
@@ -110,6 +113,7 @@ public class MonsterBehavior : MonoBehaviour
         //NavAgent.enabled = false;
         Animator.SetBool("IsDead", true);
         Debug.Log(name + " has died");
+        CurrencyManager.Instance.AddGold(GoldValue);
     }
 
     public void DeathCleanup()
