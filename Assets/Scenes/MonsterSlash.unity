@@ -4417,7 +4417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d281cff3d2face14e80079a77f3d9810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentGold: 0
+  CurrentGold: 10000
   GoldChanged:
     m_PersistentCalls:
       m_Calls: []
